@@ -21,7 +21,8 @@ a strong {
 }
 a:hover,
 a strong:hover {
-  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s;
   color: var(--cream-light)!important;
 }
 .composer_emoji_tooltip_tab_emoji,
@@ -211,19 +212,23 @@ a.im_dialog:hover .im_dialog_date {
   border-left-color: var(--gray);
 }
 .composer_emoji_tooltip_tab_shadow {
-  box-shadow: 0 1px 0 var(--cream);
+  -webkit-box-shadow: 0 1px 0 var(--cream);
+          box-shadow: 0 1px 0 var(--cream);
 }
 .composer_rich_textarea,
 .composer_textarea {
-  box-shadow: 0 1px 0 var(--gray);
+  -webkit-box-shadow: 0 1px 0 var(--gray);
+          box-shadow: 0 1px 0 var(--gray);
 }
 .composer_rich_textarea:focus {
-  box-shadow: 0 2px 0 0 var(--cream-dark);
+  -webkit-box-shadow: 0 2px 0 0 var(--cream-dark);
+          box-shadow: 0 2px 0 0 var(--cream-dark);
 }
 .im_page_wrap,
 .tg_head_logo_dropdown .dropdown-menu,
 .tg_head_peer_dropdown .dropdown-menu {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .badge,
 .btn-link:hover,
@@ -248,10 +253,17 @@ a.im_dialog:hover .im_dialog_date {
   background-color: transparent;
 }
 .composer_emoji_tooltip_category i {
-  filter: hue-rotate(20deg) invert(100%) brightness(1.5);
+  -webkit-filter: hue-rotate(20deg) invert(100%) brightness(1.5);
+          filter: hue-rotate(20deg) invert(100%) brightness(1.5);
 }
 .im_message_focus_active .im_message_outer_wrap {
-  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+@-webkit-keyframes im_message_focus_fade {
+  from {
+    background-color: var(--gray-light);
+  }
 }
 @keyframes im_message_focus_fade {
   from {
@@ -275,5 +287,6 @@ a.im_dialog:hover .im_dialog_date {
 .md_modal_split_action_camera,
 .md_modal_split_action_msg,
 .md_modal_split_action_twitter {
-  filter: hue-rotate(200deg);
+  -webkit-filter: hue-rotate(200deg);
+          filter: hue-rotate(200deg);
 }
