@@ -73,6 +73,7 @@ a.im_dialog .im_short_message_service {
 .im_message_selected .im_message_outer_wrap,
 .im_message_unread_split,
 .md_modal_head,
+.media_modal_wrap,
 .tg_head_btn:hover,
 .tg_head_logo_dropdown .dropdown-menu > li > a:hover,
 .tg_head_peer_dropdown .dropdown-menu > li > a:hover {
