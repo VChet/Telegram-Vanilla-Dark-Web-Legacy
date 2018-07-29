@@ -73,6 +73,7 @@ a.im_dialog .im_short_message_service {
 .im_message_selected .im_message_outer_wrap,
 .im_message_unread_split,
 .md_modal_head,
+.md_modal_section_splitter,
 .media_modal_wrap,
 .tg_head_btn:hover,
 .tg_head_logo_dropdown .dropdown-menu > li > a:hover,
@@ -215,6 +216,9 @@ a.im_dialog:hover .im_dialog_date {
 .im_message_webpage_wrap {
   border-left-color: var(--gray);
 }
+.md_modal_section_splitter {
+	border-top-color: var(--cream-dark);
+}
 .composer_emoji_tooltip_tab_shadow {
   -webkit-box-shadow: 0 1px 0 var(--cream);
           box-shadow: 0 1px 0 var(--cream);
@@ -227,6 +231,10 @@ a.im_dialog:hover .im_dialog_date {
 .composer_rich_textarea:focus {
   -webkit-box-shadow: 0 2px 0 0 var(--cream-dark);
           box-shadow: 0 2px 0 0 var(--cream-dark);
+}
+.md_modal_section_splitter {
+  -webkit-box-shadow: inset 0 1px 0.3px var(--cream-dark);
+          box-shadow: inset 0 1px 0.3px var(--cream-dark);
 }
 .im_page_wrap,
 .tg_head_logo_dropdown .dropdown-menu,
