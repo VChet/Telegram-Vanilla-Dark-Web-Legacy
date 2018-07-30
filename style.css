@@ -61,7 +61,8 @@ a.im_dialog .im_short_message_service {
 .open .btn-primary.dropdown-toggle,
 .reply_markup_button:focus,
 .reply_markup_button:hover,
-.stickerset_modal_sticker_wrap:hover {
+.stickerset_modal_sticker_wrap:hover,
+.tg_checkbox.tg_checkbox_on span.icon-checkbox-outer {
   background-color: var(--cream-dark);
 }
 .btn,
@@ -190,9 +191,6 @@ a.im_dialog .im_dialog_chat_from_wrap,
 a.im_dialog:hover .im_dialog_date,
 h3 {
   color: var(--light);
-}
-.tg_checkbox.tg_checkbox_on span.icon-checkbox-outer {
-  background-color: var(--light);
 }
 .im_service_message {
   margin: 0;
