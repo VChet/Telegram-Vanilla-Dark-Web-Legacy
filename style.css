@@ -185,6 +185,7 @@ a.im_dialog .im_short_message_text {
 .peer_modal_profile_description,
 .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
 .tg_head_peer_title,
+a.contacts_modal_contact:hover .md_modal_list_peer_description,
 a.im_dialog .im_dialog_chat_from_wrap,
 a.im_dialog:hover .im_dialog_date,
 h3 {
