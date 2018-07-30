@@ -109,6 +109,7 @@ a.im_dialog .im_short_message_service {
 .im_history_typing_wrap,
 .im_message_outer_wrap,
 .im_page_split,
+.im_page_wrap,
 .im_record_bg,
 .im_service_message_wrap,
 .login_footer_about_wrap,
@@ -310,6 +311,9 @@ h3 {
   from {
     background-color: var(--gray-light);
   }
+}
+.progress-arc-intermediate .progress-arc .progress-arc-bar {
+  stroke: var(--cream);
 }
 /* Hue rotation */
 .icon-about,
