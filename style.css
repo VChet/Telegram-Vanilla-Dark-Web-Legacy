@@ -12,7 +12,7 @@
 body,
 html {
   color: var(--text);
-  background-color: var(--gray-bg);
+  background-color: var(--gray-bg)!important;
 }
 a,
 a strong {
@@ -65,6 +65,8 @@ a.im_dialog .im_short_message_service {
 .btn,
 .composer_dropdown_wrap,
 .contacts_modal_members_list a.contacts_modal_contact:hover,
+.countries_modal_col .nano > .nano-pane,
+.countries_scrollable_wrap a.countries_modal_country:hover,
 .dropdown-menu .divider,
 .dropdown.open .tg_head_btn,
 .im_dialogs_scrollable_wrap a.im_dialog:hover,
@@ -72,6 +74,7 @@ a.im_dialog .im_short_message_service {
 .im_message_reply_border,
 .im_message_selected .im_message_outer_wrap,
 .im_message_unread_split,
+.login_head_bg,
 .md_modal_head,
 .md_modal_section_splitter,
 .media_modal_wrap,
@@ -84,6 +87,9 @@ a.im_dialog .im_short_message_service {
 .contacts_modal_search_field,
 .contacts_modal_search_field:active,
 .contacts_modal_search_field:focus,
+.countries_modal_search_field,
+.countries_modal_search_field:active,
+.countries_modal_search_field:focus,
 .dropdown-menu,
 .error_modal_wrap,
 .icon-tooltip-tail,
@@ -103,7 +109,9 @@ a.im_dialog .im_short_message_service {
 .im_page_split,
 .im_record_bg,
 .im_service_message_wrap,
-.login_head_bg,
+.login_footer_about_wrap,
+.login_form_wrap,
+.md-input,
 .md_modal_body,
 .md_modal_footer,
 .md_simple_modal_wrap,
@@ -116,6 +124,8 @@ a.im_dialog {
 .im_page_wrap,
 .im_selected_count,
 .im_selected_count,
+.login_footer_wrap,
+.md-input,
 .reply_markup_button,
 .reply_markup_button,
 .tg_head_peer_status,
@@ -125,6 +135,7 @@ a.im_dialog .im_short_message_text {
 .button,
 .im_dialogs_col .nano > .nano-pane > .nano-slider,
 .im_history_col .nano > .nano-pane > .nano-slider,
+.countries_modal_col .nano > .nano-pane > .nano-slider,
 .im_history_select_active .im_message_outer_wrap:hover,
 .im_message_file_button {
   background-color: var(--gray-light);
@@ -132,6 +143,7 @@ a.im_dialog .im_short_message_text {
 .active a.im_dialog .im_short_message_text {
   color: #FFFFFF!important;
 }
+.countries_scrollable_wrap a.countries_modal_country:hover .countries_modal_country_code,
 .im_bot_intro_message_wrap,
 .im_dialog_peer,
 .im_history_select_active .im_message_outer_wrap:hover .im_message_audio_duration,
@@ -162,12 +174,14 @@ a.im_dialog .im_short_message_text {
 .im_message_selected .im_message_views_cnt,
 .im_message_unread_split,
 .im_service_message,
+.login_form_head,
 .md_modal_head,
 .peer_modal_profile_description,
 .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
 .tg_head_peer_title,
 a.im_dialog .im_dialog_chat_from_wrap,
-a.im_dialog:hover .im_dialog_date {
+a.im_dialog:hover .im_dialog_date,
+h3 {
   color: var(--light);
 }
 .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer {
@@ -180,18 +194,24 @@ a.im_dialog:hover .im_dialog_date {
 
 /* Borders / Shadows */
 .contacts_modal_search_field,
-.form-control.no_outline:focus,
 .im_dialogs_search_field,
+.im_dialogs_search_field:active,
+.im_dialogs_search_field:focus,
 .im_edit_panel_border,
 .tg_radio.tg_radio_on .icon-radio-outer {
   border-color: var(--gray-dark)!important;
 }
 .composer_emoji_tooltip,
+.countries_modal_search_field,
+.countries_modal_search_field:active,
+.countries_modal_search_field:focus,
 .icon-tooltip-tail,
 .im_page_wrap,
+.login_footer_about_wrap,
+.login_form_wrap,
 .tg_head_logo_dropdown.open .dropdown-menu,
 .tg_head_peer_dropdown .dropdown-menu {
-  border: 1px solid var(--gray);
+  border: 1px solid var(--gray)!important;
 }
 .tg_head_split {
   border-right: 1px solid var(--gray);
@@ -210,6 +230,7 @@ a.im_dialog:hover .im_dialog_date {
 .im_dialog_wrap,
 .im_dialogs_panel,
 .im_history_pinned_wrap,
+.md-input-group,
 .md_modal_iconed_section_wrap {
   border-bottom: 1px solid var(--gray);
 }
@@ -224,7 +245,9 @@ a.im_dialog:hover .im_dialog_date {
           box-shadow: 0 1px 0 var(--cream);
 }
 .composer_rich_textarea,
-.composer_textarea {
+.composer_textarea,
+.login_footer_about_wrap,
+.login_form_wrap {
   -webkit-box-shadow: 0 1px 0 var(--gray);
           box-shadow: 0 1px 0 var(--gray);
 }
