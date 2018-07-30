@@ -40,7 +40,9 @@ a strong:hover {
 .tg_checkbox.tg_checkbox_on i.icon-checkbox-inner,
 .tg_down_progress .progress-bar,
 .tg_radio.tg_radio_on i.icon-radio,
-.tg_slider_thumb {
+.tg_slider_thumb,
+.tg_slider_track_fill,
+a.tg_radio_on:hover i.icon-radio {
   background-color: var(--cream);
 }
 a.im_dialog .im_short_message_media,
@@ -124,20 +126,23 @@ a.im_dialog {
 .im_page_wrap,
 .im_selected_count,
 .im_selected_count,
+.inactive_title,
 .login_footer_wrap,
 .md-input,
 .reply_markup_button,
 .reply_markup_button,
+.tg_head_connecting_text,
 .tg_head_peer_status,
 a.im_dialog .im_short_message_text {
   color: var(--text)!important;
 }
 .button,
+.countries_modal_col .nano > .nano-pane > .nano-slider,
 .im_dialogs_col .nano > .nano-pane > .nano-slider,
 .im_history_col .nano > .nano-pane > .nano-slider,
-.countries_modal_col .nano > .nano-pane > .nano-slider,
 .im_history_select_active .im_message_outer_wrap:hover,
-.im_message_file_button {
+.im_message_file_button,
+.tg_slider_track {
   background-color: var(--gray-light);
 }
 .active a.im_dialog .im_short_message_text {
@@ -193,6 +198,11 @@ h3 {
 }
 
 /* Borders / Shadows */
+.tg_radio .icon-radio-outer {
+  border: 0;
+  border-radius: 0;
+}
+
 .contacts_modal_search_field,
 .im_dialogs_search_field,
 .im_dialogs_search_field:active,
