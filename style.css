@@ -1,53 +1,18 @@
 :root {
-	--cream-dark: #908B67;
-	--cream: #B9B384;
-	--cream-light: #D0CA94;
-	--gray-bg: #191919;
-	--gray-dark: #222222;
-	--gray: #272727;
-	--gray-light: #333333;
-	--light: #AAAAAA;
-	--text: #959595;
+  --cream-dark: #908B67;
+  --cream: #B9B384;
+  --cream-light: #D0CA94;
+  --gray-bg: #191919;
+  --gray-dark: #222222;
+  --gray: #272727;
+  --gray-light: #333333;
+  --light: #AAAAAA;
+  --text: #959595;
 }
 body,
 html {
   color: var(--text);
   background-color: var(--gray-bg)!important;
-}
-a,
-a strong {
-  color: var(--cream)!important;
-  border: none!important;
-}
-a:hover,
-a strong:hover {
-  -webkit-transition: all 0.2s;
-          transition: all 0.2s;
-  color: var(--cream-light)!important;
-}
-.composer_emoji_tooltip_tab_emoji,
-.composer_emoji_tooltip_tabs_stickers_active .composer_emoji_tooltip_tab_stickers {
-  color: var(--cream)!important;
-}
-.audio_player_seek_slider .tg_slider_track_fill,
-.audio_player_volume_slider .tg_slider_thumb,
-.audio_player_volume_slider .tg_slider_track_fill,
-.composer_dropdown li a:hover,
-.composer_emoji_tooltip_tab_shadow,
-.im_dialog_badge_muted,
-.im_dialogs_scrollable_wrap .active a.im_dialog:hover,
-.im_send_reply_cancel:hover .icon-reply-bar,
-.tg_checkbox.tg_checkbox_on i.icon-checkbox-inner,
-.tg_down_progress .progress-bar,
-.tg_radio.tg_radio_on i.icon-radio,
-.tg_slider_thumb,
-.tg_slider_track_fill,
-a.tg_radio_on:hover i.icon-radio {
-  background-color: var(--cream);
-}
-a.im_dialog .im_short_message_media,
-a.im_dialog .im_short_message_service {
-  color: var(--cream-dark);
 }
 .btn-link:hover,
 .btn-md:hover,
@@ -65,26 +30,50 @@ a.im_dialog .im_short_message_service {
 .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer {
   background-color: var(--cream-dark);
 }
-.btn,
-.composer_dropdown_wrap,
-.contacts_modal_members_list a.contacts_modal_contact:hover,
-.countries_modal_col .nano > .nano-pane,
-.countries_scrollable_wrap a.countries_modal_country:hover,
-.dropdown-menu .divider,
-.dropdown.open .tg_head_btn,
-.im_dialogs_scrollable_wrap a.im_dialog:hover,
-.im_history_col .nano > .nano-pane,
-.im_message_reply_border,
-.im_message_selected .im_message_outer_wrap,
-.im_message_unread_split,
-.login_head_bg,
-.md_modal_head,
-.md_modal_section_splitter,
-.media_modal_wrap,
-.tg_head_btn:hover,
-.tg_head_logo_dropdown .dropdown-menu > li > a:hover,
-.tg_head_peer_dropdown .dropdown-menu > li > a:hover {
-  background-color: var(--gray);
+a.im_dialog .im_short_message_media,
+a.im_dialog .im_short_message_service {
+  color: var(--cream-dark);
+}
+.audio_player_seek_slider .tg_slider_track_fill,
+.audio_player_volume_slider .tg_slider_thumb,
+.audio_player_volume_slider .tg_slider_track_fill,
+.composer_dropdown li a:hover,
+.composer_emoji_tooltip_tab_shadow,
+.im_dialog_badge_muted,
+.im_dialogs_scrollable_wrap .active a.im_dialog:hover,
+.im_send_reply_cancel:hover .icon-reply-bar,
+.tg_checkbox.tg_checkbox_on i.icon-checkbox-inner,
+.tg_down_progress .progress-bar,
+.tg_radio.tg_radio_on i.icon-radio,
+.tg_slider_thumb,
+.tg_slider_track_fill,
+a.tg_radio_on:hover i.icon-radio {
+  background-color: var(--cream);
+}
+.composer_emoji_tooltip_tab_emoji,
+.composer_emoji_tooltip_tabs_stickers_active .composer_emoji_tooltip_tab_stickers,
+a strong,
+a {
+  color: var(--cream)!important;
+}
+a:hover,
+a strong:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  color: var(--cream-light)!important;
+}
+.badge,
+.btn-link:hover,
+.btn-md:hover,
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn:hover .im_selected_count,
+.open .btn-primary.dropdown-toggle,
+.reply_markup_button:focus,
+.reply_markup_button:hover {
+  color: var(--gray-bg)!important;
 }
 .composer_emoji_tooltip,
 .contacts_modal_search_field,
@@ -124,19 +113,25 @@ a.im_dialog {
   background-color: var(--gray-dark);
 }
 .btn,
-.form-control,
-.im_page_wrap,
-.im_selected_count,
-.im_selected_count,
-.inactive_title,
-.login_footer_wrap,
-.md-input,
-.reply_markup_button,
-.reply_markup_button,
-.tg_head_connecting_text,
-.tg_head_peer_status,
-a.im_dialog .im_short_message_text {
-  color: var(--text)!important;
+.composer_dropdown_wrap,
+.contacts_modal_members_list a.contacts_modal_contact:hover,
+.countries_modal_col .nano > .nano-pane,
+.countries_scrollable_wrap a.countries_modal_country:hover,
+.dropdown-menu .divider,
+.dropdown.open .tg_head_btn,
+.im_dialogs_scrollable_wrap a.im_dialog:hover,
+.im_history_col .nano > .nano-pane,
+.im_message_reply_border,
+.im_message_selected .im_message_outer_wrap,
+.im_message_unread_split,
+.login_head_bg,
+.md_modal_head,
+.md_modal_section_splitter,
+.media_modal_wrap,
+.tg_head_btn:hover,
+.tg_head_logo_dropdown .dropdown-menu > li > a:hover,
+.tg_head_peer_dropdown .dropdown-menu > li > a:hover {
+  background-color: var(--gray);
 }
 .button,
 .countries_modal_col .nano > .nano-pane > .nano-slider,
@@ -146,9 +141,6 @@ a.im_dialog .im_short_message_text {
 .im_message_file_button,
 .tg_slider_track {
   background-color: var(--gray-light);
-}
-.active a.im_dialog .im_short_message_text {
-  color: #FFFFFF!important;
 }
 .countries_scrollable_wrap a.countries_modal_country:hover .countries_modal_country_code,
 .im_bot_intro_message_wrap,
@@ -192,17 +184,35 @@ a.im_dialog:hover .im_dialog_date,
 h3 {
   color: var(--light);
 }
+.btn,
+.form-control,
+.im_page_wrap,
+.im_selected_count,
+.im_selected_count,
+.inactive_title,
+.login_footer_wrap,
+.md-input,
+.reply_markup_button,
+.reply_markup_button,
+.tg_head_connecting_text,
+.tg_head_peer_status,
+a.im_dialog .im_short_message_text {
+  color: var(--text)!important;
+}
+.active a.im_dialog .im_short_message_text {
+  color: #FFFFFF!important;
+}
 .im_service_message {
   margin: 0;
   padding: 9px 7px;
 }
-
 /* Borders / Shadows */
-.tg_radio .icon-radio-outer {
+.tg_radio .icon-radio-outer,
+a strong,
+a {
   border: 0;
   border-radius: 0;
 }
-
 .contacts_modal_search_field,
 .im_dialogs_search_field,
 .im_dialogs_search_field:active,
@@ -248,7 +258,7 @@ h3 {
   border-left-color: var(--gray);
 }
 .md_modal_section_splitter {
-	border-top-color: var(--cream-dark);
+  border-top-color: var(--cream-dark);
 }
 .composer_emoji_tooltip_tab_shadow {
   -webkit-box-shadow: 0 1px 0 var(--cream);
@@ -275,19 +285,6 @@ h3 {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-.badge,
-.btn-link:hover,
-.btn-md:hover,
-.btn-primary.active,
-.btn-primary:active,
-.btn-primary:focus,
-.btn-primary:hover,
-.btn:hover .im_selected_count,
-.open .btn-primary.dropdown-toggle,
-.reply_markup_button:focus,
-.reply_markup_button:hover {
-  color: var(--gray-bg)!important;
-}
 .im_submit_send {
   color: var(--cream-dark)!important;
   background-color: transparent;
@@ -299,7 +296,7 @@ h3 {
 }
 .im_message_focus_active .im_message_outer_wrap {
   -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+          animation-duration: 2s;
 }
 @-webkit-keyframes im_message_focus_fade {
   from {
@@ -332,7 +329,7 @@ h3 {
 .md_modal_split_action_msg,
 .md_modal_split_action_twitter {
   -webkit-filter: hue-rotate(200deg);
-  filter: hue-rotate(200deg);
+          filter: hue-rotate(200deg);
 }
 .composer_emoji_tooltip_category.active i {
   -webkit-filter: brightness(50%) sepia(1) hue-rotate(17deg) saturate(98%) brightness(141%);
