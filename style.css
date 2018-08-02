@@ -52,12 +52,16 @@ a.tg_radio_on:hover i.icon-radio {
 }
 .composer_emoji_tooltip_tab_emoji,
 .composer_emoji_tooltip_tabs_stickers_active .composer_emoji_tooltip_tab_stickers,
+.im_message_author,
+.im_message_fwd_author,
 a strong,
 a {
   color: var(--cream)!important;
 }
-a:hover,
-a strong:hover {
+.im_message_author:hover,
+.im_message_fwd_author:hover,
+a strong:hover,
+a:hover {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   color: var(--cream-light)!important;
