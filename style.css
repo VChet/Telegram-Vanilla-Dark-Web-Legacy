@@ -337,7 +337,8 @@ a {
   -webkit-filter: hue-rotate(200deg);
           filter: hue-rotate(200deg);
 }
-.composer_emoji_tooltip_category.active i {
+.composer_emoji_tooltip_category.active i,
+.im_dialog_pinned {
   -webkit-filter: brightness(50%) sepia(1) hue-rotate(17deg) saturate(98%) brightness(141%);
           filter: brightness(50%) sepia(1) hue-rotate(17deg) saturate(98%) brightness(141%);
 }
