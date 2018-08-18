@@ -60,6 +60,11 @@
   a {
     color: var(--cream)!important;
   }
+  .active .im_dialog_unread,
+  .icon-message-status,
+  a.im_dialog:hover .im_dialog_unread {
+    background-color: var(--cream-light);
+  }
   .im_message_author:hover,
   .im_message_fwd_author:hover,
   a strong:hover,
