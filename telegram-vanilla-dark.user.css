@@ -30,6 +30,7 @@
   .btn-primary:active,
   .btn-primary:focus,
   .btn-primary:hover,
+  .composer_sticker_btn:hover,
   .im_dialog_unread,
   .im_dialogs_scrollable_wrap .active a.im_dialog,
   .nav-pills > li.active > a,
@@ -37,7 +38,8 @@
   .reply_markup_button:focus,
   .reply_markup_button:hover,
   .stickerset_modal_sticker_wrap:hover,
-  .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer {
+  .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
+  a.composer_emoji_btn:hover {
     background-color: var(--cream-dark);
   }
   a.im_dialog .im_short_message_media,
