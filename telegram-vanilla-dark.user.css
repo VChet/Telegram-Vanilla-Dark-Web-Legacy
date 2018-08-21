@@ -362,6 +362,10 @@
     -webkit-filter: invert(100%);
             filter: invert(100%);
   }
+  .active .im_dialog_pinned {
+    -webkit-filter: brightness(250%);
+            filter: brightness(250%);
+  }
 
   /*[[border-radius]]*/
 }
