@@ -8,12 +8,12 @@
 @license     CC BY-NC-SA 3.0
 @advanced dropdown border-radius "Reduce photo border-radius" {
   No "No" <<<EOT
-  border-radius: 50%; EOT;
+  EOT;
   Yes "Yes" <<<EOT
-  border-radius: 10%; EOT;
+ .im_dialog_photo, .im_message_contact_photo, .im_message_from_photo, .im_message_fwd_photo, .peer_modal_photo { border-radius: 10%; } EOT;
 }
 @advanced dropdown color-theme "Color Theme" {
-  main "main" <<<EOT
+  Cream "Cream" <<<EOT
   :root { --main-dark: #908B67; --main: #B9B384; --main-light: #D0CA94; --gray-bg: #191919; --gray-dark: #222222; --gray: #272727; --light: #AAAAAA; --text: #959595; } .icon-about, .icon-camera, .icon-contacts, .icon-emoji, .icon-faq, .icon-keyboard, .icon-message-views, .icon-mic, .icon-new-group, .icon-paperclip, .icon-select-tick, .icon-settings, .im_message_file_button_icon, .md_modal_split_action_camera, .md_modal_split_action_msg, .md_modal_split_action_twitter { -webkit-filter: hue-rotate(200deg); filter: hue-rotate(200deg); } .composer_emoji_tooltip_category.active i, .im_dialog_pinned { -webkit-filter: brightness(50%) sepia(1) hue-rotate(17deg) saturate(98%) brightness(141%); filter: brightness(50%) sepia(1) hue-rotate(17deg) saturate(98%) brightness(141%); } EOT;
   Aqua "Aqua" <<<EOT
   :root { --main-dark: #5B8E90; --main: #77BABC; --main-light: #8ED1CC; --gray-bg: #1D1D24; --gray-dark: #23232D; --gray: #2C2C36; --light: #AAAAAA; --text: #959595; } .icon-about, .icon-camera, .icon-contacts, .icon-emoji, .icon-faq, .icon-keyboard, .icon-message-views, .icon-mic, .icon-new-group, .icon-paperclip, .icon-select-tick, .icon-settings, .im_message_file_button_icon, .md_modal_split_action_camera, .md_modal_split_action_msg, .md_modal_split_action_twitter { -webkit-filter: hue-rotate(-30deg); filter: hue-rotate(-30deg); } .composer_emoji_tooltip_category.active i, .im_dialog_pinned { -webkit-filter: brightness(50%) sepia(1) hue-rotate(144.4deg) saturate(151.4%) brightness(121.4%); filter: brightness(50%) sepia(1) hue-rotate(144.4deg) saturate(151.4%) brightness(121.4%); } EOT;
@@ -24,7 +24,9 @@
 }
 ==/UserStyle== */
 @-moz-document domain("web.telegram.org") {
+  /* Optional */
   /*[[color-theme]]*/
+  /*[[border-radius]]*/
 
   body,
   html {
@@ -353,13 +355,5 @@
   .active .im_dialog_pinned {
     -webkit-filter: brightness(250%); /* white */
             filter: brightness(250%);
-  }
-
-  .im_dialog_photo,
-  .im_message_contact_photo,
-  .im_message_from_photo,
-  .im_message_fwd_photo,
-  .peer_modal_photo {
-    /*[[border-radius]]*/
   }
 }
