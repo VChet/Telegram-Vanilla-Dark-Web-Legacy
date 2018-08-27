@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Telegram Vanilla Dark
 @namespace   Telegram Vanilla Dark
-@version     0.4.0
+@version     0.4.1
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
 @supportURL  https://github.com/VChet/Telegram-Vanilla-Dark/issues
@@ -20,7 +20,7 @@
   Green "Green" <<<EOT
  :root { --main-dark: #4B8B60; --main: #63B97F; --main-light: #7AD08F; --gray-bg: #19191A; --gray-dark: #212122; --gray: #2A2A2C; --light: #AAAAAA; --text: #959595; } .icon-about, .icon-camera, .icon-contacts, .icon-emoji, .icon-faq, .icon-keyboard, .icon-message-views, .icon-mic, .icon-new-group, .icon-paperclip, .icon-select-tick, .icon-settings, .im_message_file_button_icon, .md_modal_split_action_camera, .md_modal_split_action_msg, .md_modal_split_action_twitter { -webkit-filter: hue-rotate(-85deg); filter: hue-rotate(-85deg); } .composer_emoji_tooltip_category.active i, .im_dialog_pinned { -webkit-filter: brightness(50%) sepia(1) hue-rotate(97.4deg) saturate(111.4%) brightness(111.4%); filter: brightness(50%) sepia(1) hue-rotate(97.4deg) saturate(111.4%) brightness(111.4%); } EOT;
   Red "Red" <<<EOT
- :root { --main-dark: #B35843; --main: #FF7B5D; --main-light: #FF926D; --gray-bg: #262A2E; --gray-dark: #2B3034; --gray: #2F353A; --light: #AAAAAA; --text: #959595; } .icon-about, .icon-camera, .icon-contacts, .icon-emoji, .icon-faq, .icon-keyboard, .icon-message-views, .icon-mic, .icon-new-group, .icon-paperclip, .icon-select-tick, .icon-settings, .im_message_file_button_icon, .md_modal_split_action_camera, .md_modal_split_action_msg, .md_modal_split_action_twitter { -webkit-filter: hue-rotate(200deg); filter: hue-rotate(200deg); } .composer_emoji_tooltip_category.active i, .im_dialog_pinned { -webkit-filter: brightness(50%) sepia(1) hue-rotate(-26.6deg) saturate(308.4%) brightness(108.4%); filter: brightness(50%) sepia(1) hue-rotate(-26.6deg) saturate(308.4%) brightness(108.4%); } EOT;
+ :root { --main-dark: #B35843; --main: #FF7B5D; --main-light: #FF926D; --gray-bg: #262A2E; --gray-dark: #2B3034; --gray: #2F353A; --light: #AAAAAA; --text: #959595; } .icon-about, .icon-camera, .icon-contacts, .icon-emoji, .icon-faq, .icon-keyboard, .icon-message-views, .icon-mic, .icon-new-group, .icon-paperclip, .icon-select-tick, .icon-settings, .im_message_file_button_icon, .md_modal_split_action_camera, .md_modal_split_action_msg, .md_modal_split_action_twitter { -webkit-filter: hue-rotate(160deg); filter: hue-rotate(160deg); } .composer_emoji_tooltip_category.active i, .im_dialog_pinned { -webkit-filter: brightness(50%) sepia(1) hue-rotate(-26.6deg) saturate(308.4%) brightness(108.4%); filter: brightness(50%) sepia(1) hue-rotate(-26.6deg) saturate(308.4%) brightness(108.4%); } EOT;
 }
 ==/UserStyle== */
 @-moz-document domain("web.telegram.org") {
