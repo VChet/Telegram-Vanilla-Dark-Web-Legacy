@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name        Telegram Vanilla Dark (Cream)
+@name        Telegram Vanilla Dark
 @namespace   Telegram Vanilla Dark
 @version     0.3.0
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
@@ -12,19 +12,20 @@
   Yes "Yes" <<<EOT
   border-radius: 10%; EOT;
 }
+@advanced dropdown color-theme "Color Theme" {
+  main "main" <<<EOT
+  :root { --main-dark: #908B67; --main: #B9B384; --main-light: #D0CA94; --gray-bg: #191919; --gray-dark: #222222; --gray: #272727; --light: #AAAAAA; --text: #959595; } .icon-about, .icon-camera, .icon-contacts, .icon-emoji, .icon-faq, .icon-keyboard, .icon-message-views, .icon-mic, .icon-new-group, .icon-paperclip, .icon-select-tick, .icon-settings, .im_message_file_button_icon, .md_modal_split_action_camera, .md_modal_split_action_msg, .md_modal_split_action_twitter { -webkit-filter: hue-rotate(200deg); filter: hue-rotate(200deg); } .composer_emoji_tooltip_category.active i, .im_dialog_pinned { -webkit-filter: brightness(50%) sepia(1) hue-rotate(17deg) saturate(98%) brightness(141%); filter: brightness(50%) sepia(1) hue-rotate(17deg) saturate(98%) brightness(141%); } EOT;
+  Aqua "Aqua" <<<EOT
+  :root { --main-dark: #5B8E90; --main: #77BABC; --main-light: #8ED1CC; --gray-bg: #1D1D24; --gray-dark: #23232D; --gray: #2C2C36; --light: #AAAAAA; --text: #959595; } .icon-about, .icon-camera, .icon-contacts, .icon-emoji, .icon-faq, .icon-keyboard, .icon-message-views, .icon-mic, .icon-new-group, .icon-paperclip, .icon-select-tick, .icon-settings, .im_message_file_button_icon, .md_modal_split_action_camera, .md_modal_split_action_msg, .md_modal_split_action_twitter { -webkit-filter: hue-rotate(-30deg); filter: hue-rotate(-30deg); } .composer_emoji_tooltip_category.active i, .im_dialog_pinned { -webkit-filter: brightness(50%) sepia(1) hue-rotate(144.4deg) saturate(151.4%) brightness(121.4%); filter: brightness(50%) sepia(1) hue-rotate(144.4deg) saturate(151.4%) brightness(121.4%); } EOT;
+  Green "Green" <<<EOT
+ :root { --main-dark: #4B8B60; --main: #63B97F; --main-light: #7AD08F; --gray-bg: #19191A; --gray-dark: #212122; --gray: #2A2A2C; --light: #AAAAAA; --text: #959595; } .icon-about, .icon-camera, .icon-contacts, .icon-emoji, .icon-faq, .icon-keyboard, .icon-message-views, .icon-mic, .icon-new-group, .icon-paperclip, .icon-select-tick, .icon-settings, .im_message_file_button_icon, .md_modal_split_action_camera, .md_modal_split_action_msg, .md_modal_split_action_twitter { -webkit-filter: hue-rotate(-85deg); filter: hue-rotate(-85deg); } .composer_emoji_tooltip_category.active i, .im_dialog_pinned { -webkit-filter: brightness(50%) sepia(1) hue-rotate(97.4deg) saturate(111.4%) brightness(111.4%); filter: brightness(50%) sepia(1) hue-rotate(97.4deg) saturate(111.4%) brightness(111.4%); } EOT;
+  Red "Red" <<<EOT
+ :root { --main-dark: #B35843; --main: #FF7B5D; --main-light: #FF926D; --gray-bg: #262A2E; --gray-dark: #2B3034; --gray: #2F353A; --light: #AAAAAA; --text: #959595; } .icon-about, .icon-camera, .icon-contacts, .icon-emoji, .icon-faq, .icon-keyboard, .icon-message-views, .icon-mic, .icon-new-group, .icon-paperclip, .icon-select-tick, .icon-settings, .im_message_file_button_icon, .md_modal_split_action_camera, .md_modal_split_action_msg, .md_modal_split_action_twitter { -webkit-filter: hue-rotate(200deg); filter: hue-rotate(200deg); } .composer_emoji_tooltip_category.active i, .im_dialog_pinned { -webkit-filter: brightness(50%) sepia(1) hue-rotate(-26.6deg) saturate(308.4%) brightness(108.4%); filter: brightness(50%) sepia(1) hue-rotate(-26.6deg) saturate(308.4%) brightness(108.4%); } EOT;
+}
 ==/UserStyle== */
 @-moz-document domain("web.telegram.org") {
-  :root {
-    --cream-dark: #908B67;
-    --cream: #B9B384;
-    --cream-light: #D0CA94;
-    --gray-bg: #191919;
-    --gray-dark: #222222;
-    --gray: #272727;
-    --gray-light: #333333;
-    --light: #AAAAAA;
-    --text: #959595;
-  }
+  /*[[color-theme]]*/
+
   body,
   html {
     color: var(--text);
@@ -46,11 +47,11 @@
   .stickerset_modal_sticker_wrap:hover,
   .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
   a.composer_emoji_btn:hover {
-    background-color: var(--cream-dark);
+    background-color: var(--main-dark);
   }
   a.im_dialog .im_short_message_media,
   a.im_dialog .im_short_message_service {
-    color: var(--cream-dark);
+    color: var(--main-dark);
   }
   .audio_player_seek_slider .tg_slider_track_fill,
   .audio_player_volume_slider .tg_slider_thumb,
@@ -66,7 +67,7 @@
   .tg_slider_thumb,
   .tg_slider_track_fill,
   a.tg_radio_on:hover i.icon-radio {
-    background-color: var(--cream);
+    background-color: var(--main);
   }
   .composer_emoji_tooltip_tab_emoji,
   .composer_emoji_tooltip_tabs_stickers_active .composer_emoji_tooltip_tab_stickers,
@@ -75,12 +76,12 @@
   .im_message_fwd_author,
   a strong,
   a {
-    color: var(--cream)!important;
+    color: var(--main)!important;
   }
   .active .im_dialog_unread,
   .icon-message-status,
   a.im_dialog:hover .im_dialog_unread {
-    background-color: var(--cream-light);
+    background-color: var(--main-light);
   }
   .im_message_author:hover,
   .im_message_fwd_author:hover,
@@ -88,7 +89,7 @@
   a:hover {
     -webkit-transition: all 0.2s;
             transition: all 0.2s;
-    color: var(--cream-light)!important;
+    color: var(--main-light)!important;
   }
   .badge,
   .btn-link:hover,
@@ -168,7 +169,7 @@
   .im_history_select_active .im_message_outer_wrap:hover,
   .im_message_file_button,
   .tg_slider_track {
-    background-color: var(--gray-light);
+    background-color: var(--gray);
   }
   .countries_scrollable_wrap a.countries_modal_country:hover .countries_modal_country_code,
   .im_bot_intro_message_wrap,
@@ -291,11 +292,11 @@
     border-left-color: var(--gray);
   }
   .md_modal_section_splitter {
-    border-top-color: var(--cream-dark);
+    border-top-color: var(--main-dark);
   }
   .composer_emoji_tooltip_tab_shadow {
-    -webkit-box-shadow: 0 1px 0 var(--cream);
-            box-shadow: 0 1px 0 var(--cream);
+    -webkit-box-shadow: 0 1px 0 var(--main);
+            box-shadow: 0 1px 0 var(--main);
   }
   .composer_rich_textarea,
   .composer_textarea,
@@ -305,12 +306,12 @@
             box-shadow: 0 1px 0 var(--gray);
   }
   .composer_rich_textarea:focus {
-    -webkit-box-shadow: 0 2px 0 0 var(--cream-dark);
-            box-shadow: 0 2px 0 0 var(--cream-dark);
+    -webkit-box-shadow: 0 2px 0 0 var(--main-dark);
+            box-shadow: 0 2px 0 0 var(--main-dark);
   }
   .md_modal_section_splitter {
-    -webkit-box-shadow: inset 0 1px 0.3px var(--cream-dark);
-            box-shadow: inset 0 1px 0.3px var(--cream-dark);
+    -webkit-box-shadow: inset 0 1px 0.3px var(--main-dark);
+            box-shadow: inset 0 1px 0.3px var(--main-dark);
   }
   .im_page_wrap,
   .tg_head_logo_dropdown .dropdown-menu,
@@ -319,12 +320,12 @@
             box-shadow: none;
   }
   .im_submit_send {
-    color: var(--cream-dark)!important;
+    color: var(--main-dark)!important;
     background-color: transparent;
   }
   .im_submit_send:focus,
   .im_submit_send:hover {
-    color: var(--cream)!important;
+    color: var(--main)!important;
     background-color: transparent;
   }
   .im_message_focus_active .im_message_outer_wrap {
@@ -333,48 +334,24 @@
   }
   @-webkit-keyframes im_message_focus_fade {
     from {
-      background-color: var(--gray-light);
+      background-color: var(--gray);
     }
   }
   @keyframes im_message_focus_fade {
     from {
-      background-color: var(--gray-light);
+      background-color: var(--gray);
     }
   }
   .progress-arc-intermediate .progress-arc .progress-arc-bar {
-    stroke: var(--cream);
+    stroke: var(--main);
   }
   /* Hue rotation */
-  .icon-about,
-  .icon-camera,
-  .icon-contacts,
-  .icon-emoji,
-  .icon-faq,
-  .icon-keyboard,
-  .icon-message-views,
-  .icon-mic,
-  .icon-new-group,
-  .icon-paperclip,
-  .icon-select-tick,
-  .icon-settings,
-  .im_message_file_button_icon,
-  .md_modal_split_action_camera,
-  .md_modal_split_action_msg,
-  .md_modal_split_action_twitter {
-    -webkit-filter: hue-rotate(200deg);
-            filter: hue-rotate(200deg);
-  }
-  .composer_emoji_tooltip_category.active i,
-  .im_dialog_pinned {
-    -webkit-filter: brightness(50%) sepia(1) hue-rotate(17deg) saturate(98%) brightness(141%);
-            filter: brightness(50%) sepia(1) hue-rotate(17deg) saturate(98%) brightness(141%);
-  }
   .composer_emoji_tooltip_category i {
     -webkit-filter: invert(100%);
             filter: invert(100%);
   }
   .active .im_dialog_pinned {
-    -webkit-filter: brightness(250%);
+    -webkit-filter: brightness(250%); /* white */
             filter: brightness(250%);
   }
 
