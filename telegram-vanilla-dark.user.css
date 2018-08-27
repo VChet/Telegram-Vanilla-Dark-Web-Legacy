@@ -230,6 +230,9 @@
     margin: 0;
     padding: 9px 7px;
   }
+  .im_dialogs_panel {
+    padding: 8px;
+  }
   /* Borders / Shadows */
   .tg_radio .icon-radio-outer,
   a strong,
