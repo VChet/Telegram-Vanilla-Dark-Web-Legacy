@@ -6,6 +6,12 @@
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
 @supportURL  https://github.com/VChet/Telegram-Vanilla-Dark/issues
 @license     CC BY-NC-SA 3.0
+@advanced dropdown border-radius "Reduce photo border-radius" {
+  No "No" <<<EOT
+  border-radius: 50%; EOT;
+  Yes "Yes" <<<EOT
+  border-radius: 10%; EOT;
+}
 ==/UserStyle== */
 @-moz-document domain("web.telegram.org") {
   :root {
@@ -372,5 +378,11 @@
             filter: brightness(250%);
   }
 
-  /*[[border-radius]]*/
+  .im_dialog_photo,
+  .im_message_contact_photo,
+  .im_message_from_photo,
+  .im_message_fwd_photo,
+  .peer_modal_photo {
+    /*[[border-radius]]*/
+  }
 }
