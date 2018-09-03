@@ -1,6 +1,5 @@
 ## Preview
-![](https://userstyles.org/style_screenshots/162801_after.jpeg?r=1534889879)
-![](https://userstyles.org/style_screenshots/162801_additional_31614.png?r=1535369481)
+![](./screenshots/color-themes.png)
 
 ## Installation
 1. Install Stylus ([Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)).
