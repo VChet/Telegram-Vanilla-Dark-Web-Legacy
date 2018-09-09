@@ -344,8 +344,14 @@
       background-color: var(--gray);
     }
   }
+  /* Progress arc */
   .progress-arc-intermediate .progress-arc .progress-arc-bar {
     stroke: var(--main);
+  }
+  .stop0,
+  .stop60,
+  .stop100 {
+    stop-color: var(--main);
   }
   /* Hue rotation */
   .composer_emoji_tooltip_category i {
