@@ -344,6 +344,14 @@
       background-color: var(--gray);
     }
   }
+  ::-moz-selection {
+    background-color: var(--main);
+    color: #FFFFFF;
+  }
+  ::selection {
+    background-color: var(--main);
+    color: #FFFFFF;
+  }
   /* Progress arc */
   .progress-arc-intermediate .progress-arc .progress-arc-bar {
     stroke: var(--main);

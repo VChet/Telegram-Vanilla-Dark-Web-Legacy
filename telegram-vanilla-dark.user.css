@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     0.4.2
+@version     0.4.3
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -366,6 +366,14 @@
     from {
       background-color: var(--gray);
     }
+  }
+  ::-moz-selection {
+    background-color: var(--main);
+    color: #FFFFFF;
+  }
+  ::selection {
+    background-color: var(--main);
+    color: #FFFFFF;
   }
   /* Progress arc */
   .progress-arc-intermediate .progress-arc .progress-arc-bar {
