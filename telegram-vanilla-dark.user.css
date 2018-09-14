@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     0.4.3
+@version     0.4.4
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -55,6 +55,8 @@
   a.tgme_action_button_new:hover {
     background-color: var(--main-dark);
   }
+  .im_message_outer_wrap span.im_message_sign_link,
+  .im_message_outer_wrap.hasselect:hover span.im_message_sign_link,
   a.im_dialog .im_short_message_media,
   a.im_dialog .im_short_message_service {
     color: var(--main-dark);
@@ -197,7 +199,6 @@
   .im_history_select_active .im_message_outer_wrap:hover .im_message_date,
   .im_history_select_active .im_message_outer_wrap:hover .im_message_document_size,
   .im_history_select_active .im_message_outer_wrap:hover .im_message_fwd_date,
-  .im_history_select_active .im_message_outer_wrap:hover .im_message_sign_link,
   .im_history_select_active .im_message_outer_wrap:hover .im_message_views_cnt,
   .im_message_focus_active .audio_player_duration,
   .im_message_focus_active .audio_player_size,
@@ -206,7 +207,6 @@
   .im_message_focus_active .im_message_document_size,
   .im_message_focus_active .im_message_edited,
   .im_message_focus_active .im_message_fwd_date,
-  .im_message_focus_active .im_message_sign_link,
   .im_message_focus_active .im_message_views_cnt,
   .im_message_reply_author,
   .im_message_selected .im_message_audio_duration,
@@ -215,7 +215,6 @@
   .im_message_selected .im_message_date,
   .im_message_selected .im_message_document_size,
   .im_message_selected .im_message_fwd_date,
-  .im_message_selected .im_message_sign_link,
   .im_message_selected .im_message_views_cnt,
   .im_message_unread_split,
   .im_service_message,
