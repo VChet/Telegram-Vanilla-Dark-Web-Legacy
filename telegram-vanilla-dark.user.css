@@ -7,7 +7,7 @@
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
 @supportURL  https://github.com/VChet/Telegram-Vanilla-Dark/issues
-@license     CC-BY-NC-SA-4.0
+@license     CC-BY-SA-4.0
 @advanced dropdown border-radius "Reduce photo border-radius" {
   No "No" <<<EOT
   EOT;
@@ -27,9 +27,9 @@
 ==/UserStyle== */
 @-moz-document domain("web.telegram.org"), domain("t.me") {
   /*! Telegram Vanilla Dark */
-  /*  Repository: https://github.com/VChet/Telegram-Vanilla-Dark     */
-  /*  Userstyle:  https://userstyles.org/styles/162801               */
-  /*  License:    https://creativecommons.org/licenses/by-nc-sa/4.0/ */
+  /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark  */
+  /*! Userstyle:  https://userstyles.org/styles/162801            */
+  /*! License:    https://creativecommons.org/licenses/by-sa/4.0/ */
 
   /*[[color-theme]]*/
   /*[[border-radius]]*/

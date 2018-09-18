@@ -1,7 +1,6 @@
 # Telegram Vanilla Dark
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![saythanks](https://img.shields.io/badge/say-thanks-B9B384.svg)](https://saythanks.io/to/VChet)
+[![saythanks](https://img.shields.io/badge/Say-thanks-B9B384.svg)](https://saythanks.io/to/VChet)
 
 Dark theme for [web.telegram.org](https://web.telegram.org).
 
