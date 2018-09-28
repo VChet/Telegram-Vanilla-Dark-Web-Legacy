@@ -55,6 +55,7 @@
   a.tg_radio_on:hover i.icon-radio {
     background-color: var(--main);
   }
+  .composer_command_value,
   .composer_emoji_tooltip_tab_emoji,
   .composer_emoji_tooltip_tabs_stickers_active .composer_emoji_tooltip_tab_stickers,
   .im_message_author,
@@ -94,6 +95,7 @@
   a.tgme_action_button_new:hover {
     color: var(--gray-bg)!important;
   }
+  .composer_command_option,
   .composer_emoji_tooltip,
   .contacts_modal_search_field,
   .contacts_modal_search_field:active,
@@ -133,6 +135,7 @@
     background-color: var(--gray-dark);
   }
   .btn,
+  .composer_dropdown li a.composer_command_option:hover,
   .composer_dropdown_wrap,
   .contacts_modal_members_list a.contacts_modal_contact:hover,
   .countries_modal_col .nano > .nano-pane,
@@ -208,6 +211,8 @@
     color: var(--light);
   }
   .btn,
+  .composer_command_desc,
+  .composer_command_option:hover .composer_command_desc,
   .form-control,
   .im_page_wrap,
   .im_selected_count,
@@ -241,7 +246,7 @@
   .im_dialogs_panel {
     padding: 8px;
   }
-  /* Borders / Shadows */
+  /* Borders */
   .tg_radio .icon-radio-outer,
   a strong,
   a {
@@ -256,6 +261,7 @@
   .tg_radio.tg_radio_on .icon-radio-outer {
     border-color: var(--gray-dark)!important;
   }
+  .composer_dropdown_wrap,
   .composer_emoji_tooltip,
   .countries_modal_search_field,
   .countries_modal_search_field:active,
@@ -295,6 +301,7 @@
   .md_modal_section_splitter {
     border-top-color: var(--main-dark);
   }
+  /* Box-shadows */
   .composer_emoji_tooltip_tab_shadow {
     -webkit-box-shadow: 0 1px 0 var(--main);
             box-shadow: 0 1px 0 var(--main);
@@ -314,6 +321,7 @@
     -webkit-box-shadow: inset 0 1px 0.3px var(--main-dark);
             box-shadow: inset 0 1px 0.3px var(--main-dark);
   }
+  .composer_dropdown_wrap,
   .im_page_wrap,
   .tg_head_logo_dropdown .dropdown-menu,
   .tg_head_peer_dropdown .dropdown-menu {
