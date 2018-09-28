@@ -58,11 +58,14 @@
   .composer_command_value,
   .composer_emoji_tooltip_tab_emoji,
   .composer_emoji_tooltip_tabs_stickers_active .composer_emoji_tooltip_tab_stickers,
+  .dropdown-toggle,
   .im_message_author,
   .im_message_document_name,
   .im_message_fwd_author,
+  .md_modal_section_param_name,
   a strong,
-  a {
+  a,
+  button.btn.btn-link.dropdown-toggle {
     color: var(--main)!important;
   }
   .active .im_dialog_unread,
@@ -73,9 +76,8 @@
   .im_message_author:hover,
   .im_message_fwd_author:hover,
   a strong:hover,
-  a:hover {
-    -webkit-transition: all 0.2s;
-            transition: all 0.2s;
+  a:hover,
+  button.btn.btn-link.dropdown-toggle:hover {
     color: var(--main-light)!important;
   }
   .badge,
@@ -141,6 +143,8 @@
   .countries_modal_col .nano > .nano-pane,
   .countries_scrollable_wrap a.countries_modal_country:hover,
   .dropdown-menu .divider,
+  .dropdown-menu > li > a:focus,
+  .dropdown-menu > li > a:hover,
   .dropdown.open .tg_head_btn,
   .im_dialogs_scrollable_wrap a.im_dialog:hover,
   .im_history_col .nano > .nano-pane,
@@ -335,6 +339,9 @@
   .im_submit_send:focus,
   .im_submit_send:hover {
     color: var(--main)!important;
+    background-color: transparent;
+  }
+  button.btn.btn-link.dropdown-toggle {
     background-color: transparent;
   }
   .im_message_focus_active .im_message_outer_wrap {
