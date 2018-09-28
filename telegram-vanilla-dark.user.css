@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     0.4.5
+@version     0.4.6
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -46,12 +46,19 @@
   .btn-primary:focus,
   .btn-primary:hover,
   .composer_sticker_btn:hover,
+  .contacts_modal_col .nano > .nano-pane > .nano-slider,
+  .countries_modal_col .nano > .nano-pane > .nano-slider,
   .im_dialog_unread,
+  .im_dialogs_col .nano > .nano-pane > .nano-slider,
+  .im_dialogs_modal_col .nano > .nano-pane > .nano-slider,
   .im_dialogs_scrollable_wrap .active a.im_dialog,
+  .im_history_col .nano > .nano-pane > .nano-slider,
   .nav-pills > li.active > a,
   .open .btn-primary.dropdown-toggle,
   .reply_markup_button:focus,
   .reply_markup_button:hover,
+  .sessions_modal_col .nano > .nano-pane > .nano-slider,
+  .stickerset_modal_col .nano > .nano-pane > .nano-slider,
   .stickerset_modal_sticker_wrap:hover,
   .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
   a.composer_emoji_btn:hover,
@@ -169,6 +176,7 @@
   .btn,
   .composer_dropdown li a.composer_command_option:hover,
   .composer_dropdown_wrap,
+  .contacts_modal_col .nano > .nano-pane,
   .contacts_modal_members_list a.contacts_modal_contact:hover,
   .countries_modal_col .nano > .nano-pane,
   .countries_scrollable_wrap a.countries_modal_country:hover,
@@ -176,6 +184,7 @@
   .dropdown-menu > li > a:focus,
   .dropdown-menu > li > a:hover,
   .dropdown.open .tg_head_btn,
+  .im_dialogs_modal_col .nano > .nano-pane,
   .im_dialogs_scrollable_wrap a.im_dialog:hover,
   .im_history_col .nano > .nano-pane,
   .im_message_reply_border,
@@ -185,6 +194,8 @@
   .md_modal_head,
   .md_modal_section_splitter,
   .media_modal_wrap,
+  .sessions_modal_col .nano > .nano-pane,
+  .stickerset_modal_col .nano > .nano-pane,
   .tg_head_btn:hover,
   .tg_head_logo_dropdown .dropdown-menu > li > a:hover,
   .tg_head_peer_dropdown .dropdown-menu > li > a:hover,
@@ -193,9 +204,6 @@
     background-color: var(--gray);
   }
   .button,
-  .countries_modal_col .nano > .nano-pane > .nano-slider,
-  .im_dialogs_col .nano > .nano-pane > .nano-slider,
-  .im_history_col .nano > .nano-pane > .nano-slider,
   .im_history_select_active .im_message_outer_wrap:hover,
   .im_message_file_button,
   .tg_slider_track,
