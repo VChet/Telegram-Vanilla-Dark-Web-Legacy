@@ -62,7 +62,8 @@
   .im_message_outer_wrap span.im_message_sign_link,
   .im_message_outer_wrap.hasselect:hover span.im_message_sign_link,
   a.im_dialog .im_short_message_media,
-  a.im_dialog .im_short_message_service {
+  a.im_dialog .im_short_message_service,
+  span.im_submit_send_label {
     color: var(--main-dark);
   }
   .audio_player_seek_slider .tg_slider_track_fill,
@@ -92,7 +93,9 @@
   .md_modal_section_param_name,
   a strong,
   a,
-  button.btn.btn-link.dropdown-toggle {
+  button.btn.btn-link.dropdown-toggle,
+  span.im_submit_send_label:focus,
+  span.im_submit_send_label:hover {
     color: var(--main)!important;
   }
   .active .im_dialog_unread,
@@ -359,15 +362,9 @@
     -webkit-box-shadow: none;
             box-shadow: none;
   }
-  .im_submit_send {
-    color: var(--main-dark)!important;
-    background-color: transparent;
-  }
+  .im_submit_send,
   .im_submit_send:focus,
-  .im_submit_send:hover {
-    color: var(--main)!important;
-    background-color: transparent;
-  }
+  .im_submit_send:hover,
   button.btn.btn-link.dropdown-toggle {
     background-color: transparent;
   }
