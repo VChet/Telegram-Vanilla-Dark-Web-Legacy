@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     0.4.6
+@version     0.4.7
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -52,6 +52,7 @@
   .im_dialogs_col .nano > .nano-pane > .nano-slider,
   .im_dialogs_modal_col .nano > .nano-pane > .nano-slider,
   .im_dialogs_scrollable_wrap .active a.im_dialog,
+  .im_dialogs_scrollable_wrap .active a.im_dialog:hover,
   .im_history_col .nano > .nano-pane > .nano-slider,
   .nav-pills > li.active > a,
   .open .btn-primary.dropdown-toggle,
@@ -79,7 +80,6 @@
   .composer_dropdown li a:hover,
   .composer_emoji_tooltip_tab_shadow,
   .im_dialog_badge_muted,
-  .im_dialogs_scrollable_wrap .active a.im_dialog:hover,
   .im_send_reply_cancel:hover .icon-reply-bar,
   .tg_checkbox.tg_checkbox_on i.icon-checkbox-inner,
   .tg_down_progress .progress-bar,
