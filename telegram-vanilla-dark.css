@@ -218,6 +218,7 @@
   .md_modal_head,
   .peer_modal_profile_description,
   .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
+  .tg_head_peer_media,
   .tg_head_peer_title,
   .tgme_page_title,
   a.contacts_modal_contact:hover .md_modal_list_peer_description,
@@ -387,5 +388,12 @@
   .active .im_dialog_pinned {
     -webkit-filter: brightness(250%); /* white */
             filter: brightness(250%);
+  }
+  .icon-filter-audio,
+  .icon-filter-documents,
+  .icon-filter-photos,
+  .icon-filter-video {
+    -webkit-filter: brightness(75%);
+            filter: brightness(75%);
   }
 }
