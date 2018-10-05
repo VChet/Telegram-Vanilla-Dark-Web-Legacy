@@ -80,6 +80,7 @@
   }
   .active .im_dialog_unread,
   .icon-message-status,
+  .im_history_pinned_hide:hover .icon-reply-bar,
   a.im_dialog:hover .im_dialog_unread {
     background-color: var(--main-light);
   }
