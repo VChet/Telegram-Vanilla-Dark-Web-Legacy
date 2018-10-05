@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     0.4.7
+@version     0.5.0
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -359,12 +359,9 @@
     -webkit-box-shadow: 0 2px 0 0 var(--main-dark);
             box-shadow: 0 2px 0 0 var(--main-dark);
   }
-  .md_modal_section_splitter {
-    -webkit-box-shadow: inset 0 1px 0.3px var(--main-dark);
-            box-shadow: inset 0 1px 0.3px var(--main-dark);
-  }
   .composer_dropdown_wrap,
   .im_page_wrap,
+  .md_modal_section_splitter,
   .tg_head_logo_dropdown .dropdown-menu,
   .tg_head_peer_dropdown .dropdown-menu {
     -webkit-box-shadow: none;
