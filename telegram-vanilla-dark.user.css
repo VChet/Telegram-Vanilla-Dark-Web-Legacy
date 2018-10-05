@@ -407,6 +407,12 @@
   .stop100 {
     stop-color: var(--main);
   }
+  .composer_emoji_insert_btn:hover .icon-emoji {
+    opacity: 0.8;
+  }
+  .composer_emoji_insert_btn_on:hover .icon-emoji {
+    opacity: 1;
+  }
   /* Hue rotation */
   .composer_emoji_tooltip_category i {
     -webkit-filter: invert(100%);
