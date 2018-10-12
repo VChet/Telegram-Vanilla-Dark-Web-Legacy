@@ -8,6 +8,7 @@
   /*[[border-radius]]*/
 
   body,
+  body.body_widget_post,
   html {
     color: var(--text);
     background-color: var(--gray-bg)!important;
@@ -35,6 +36,8 @@
   .stickerset_modal_col .nano > .nano-pane > .nano-slider,
   .stickerset_modal_sticker_wrap:hover,
   .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
+  .tgme_page_copy_action a.tgme_action_button_new:hover,
+  .tgme_page_embed_btn a.tgme_action_button_new:hover,
   a.composer_emoji_btn:hover,
   a.tgme_action_button_new:active,
   a.tgme_action_button_new:hover {
@@ -73,6 +76,7 @@
   .im_message_fwd_author,
   .im_submit_send_label:focus,
   .im_submit_send_label:hover,
+  .link_preview_site_name,
   .md_modal_section_param_name,
   a strong,
   a {
@@ -144,11 +148,15 @@
   .md_modal_footer,
   .md_simple_modal_wrap,
   .tg_head_split,
+  .tgme_widget_message_game:before,
+  .tgme_widget_message_link_preview:before,
+  .tgme_widget_message_reply:before,
   a.im_dialog,
   a.tgme_head_dl_button {
     background-color: var(--gray-dark);
   }
   .btn,
+  .button,
   .composer_dropdown li a.composer_command_option:hover,
   .composer_dropdown_wrap,
   .contacts_modal_col .nano > .nano-pane,
@@ -162,6 +170,8 @@
   .im_dialogs_modal_col .nano > .nano-pane,
   .im_dialogs_scrollable_wrap a.im_dialog:hover,
   .im_history_col .nano > .nano-pane,
+  .im_history_select_active .im_message_outer_wrap:hover,
+  .im_message_file_button,
   .im_message_reply_border,
   .im_message_selected .im_message_outer_wrap,
   .im_message_unread_split,
@@ -174,17 +184,16 @@
   .tg_head_btn:hover,
   .tg_head_logo_dropdown .dropdown-menu > li > a:hover,
   .tg_head_peer_dropdown .dropdown-menu > li > a:hover,
+  .tg_slider_track,
+  .tgme_page_copy_action a.tgme_action_button_new,
+  .tgme_page_embed_btn a.tgme_action_button_new,
+  .tgme_page_embed_code,
+  .tgme_page_web_action a.tgme_action_button,
+  .tgme_widget_message_bubble,
+  a.tgme_action_button,
+  a.tgme_action_button_new,
   a.tgme_head_dl_button:active,
   a.tgme_head_dl_button:hover {
-    background-color: var(--gray);
-  }
-  .button,
-  .im_history_select_active .im_message_outer_wrap:hover,
-  .im_message_file_button,
-  .tg_slider_track,
-  .tgme_page_web_action a.tgme_action_button,
-  a.tgme_action_button,
-  a.tgme_action_button_new {
     background-color: var(--gray);
   }
   .countries_scrollable_wrap a.countries_modal_country:hover .countries_modal_country_code,
@@ -235,6 +244,7 @@
   .im_page_wrap,
   .im_selected_count,
   .inactive_title,
+  .link_preview_title,
   .login_footer_wrap,
   .md-input,
   .md_modal_list_peer_description .status_online,
@@ -242,7 +252,9 @@
   .reply_markup_button,
   .tg_head_connecting_text,
   .tg_head_peer_status,
+  .tgme_page_embed_code,
   .tgme_page_wrap,
+  .tgme_widget_message_footer,
   a.im_dialog .im_short_message_text,
   a.tgme_action_button,
   a.tgme_action_button_new {
@@ -250,10 +262,6 @@
   }
   .active a.im_dialog .im_short_message_text {
     color: #FFFFFF!important;
-  }
-  .tgme_page_web_action a.tgme_action_button:active,
-  .tgme_page_web_action a.tgme_action_button:hover {
-    background-color: #5DC390;
   }
   .im_service_message {
     margin: 0;
@@ -288,7 +296,9 @@
   .login_footer_about_wrap,
   .login_form_wrap,
   .tg_head_logo_dropdown.open .dropdown-menu,
-  .tg_head_peer_dropdown .dropdown-menu {
+  .tg_head_peer_dropdown .dropdown-menu,
+  .tgme_page_embed_code,
+  .tgme_widget_message_bubble {
     border: 1px solid var(--gray)!important;
   }
   .tg_head_split {
@@ -402,3 +412,22 @@
             filter: brightness(75%);
   }
 }
+
+/* t.me only */
+  .tgme_page_web_action a.tgme_action_button:active,
+  .tgme_page_web_action a.tgme_action_button:hover {
+    background-color: #5DC390;
+  }
+  .tgme_page_widget_actions a.tgme_action_web_button:hover {
+    text-decoration: none;
+  }
+  .tgme_widget_message_bubble_tail .background {
+    fill: var(--gray);
+  }
+  .tgme_widget_message_bubble_tail .border {
+    stroke: var(--gray);
+  }
+  a.tgme_action_button.tgme_action_web_button {
+    border: 2px solid #5dc390;
+    padding: 13px 8px 11px;
+  }

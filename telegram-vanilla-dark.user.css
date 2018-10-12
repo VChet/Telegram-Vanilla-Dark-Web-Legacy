@@ -35,6 +35,7 @@
   /*[[border-radius]]*/
 
   body,
+  body.body_widget_post,
   html {
     color: var(--text);
     background-color: var(--gray-bg)!important;
@@ -62,6 +63,8 @@
   .stickerset_modal_col .nano > .nano-pane > .nano-slider,
   .stickerset_modal_sticker_wrap:hover,
   .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
+  .tgme_page_copy_action a.tgme_action_button_new:hover,
+  .tgme_page_embed_btn a.tgme_action_button_new:hover,
   a.composer_emoji_btn:hover,
   a.tgme_action_button_new:active,
   a.tgme_action_button_new:hover {
@@ -100,6 +103,7 @@
   .im_message_fwd_author,
   .im_submit_send_label:focus,
   .im_submit_send_label:hover,
+  .link_preview_site_name,
   .md_modal_section_param_name,
   a strong,
   a {
@@ -171,6 +175,9 @@
   .md_modal_footer,
   .md_simple_modal_wrap,
   .tg_head_split,
+  .tgme_widget_message_game:before,
+  .tgme_widget_message_link_preview:before,
+  .tgme_widget_message_reply:before,
   a.im_dialog,
   a.tgme_head_dl_button {
     background-color: var(--gray-dark);
@@ -205,7 +212,11 @@
   .tg_head_logo_dropdown .dropdown-menu > li > a:hover,
   .tg_head_peer_dropdown .dropdown-menu > li > a:hover,
   .tg_slider_track,
+  .tgme_page_copy_action a.tgme_action_button_new,
+  .tgme_page_embed_btn a.tgme_action_button_new,
+  .tgme_page_embed_code,
   .tgme_page_web_action a.tgme_action_button,
+  .tgme_widget_message_bubble,
   a.tgme_action_button,
   a.tgme_action_button_new,
   a.tgme_head_dl_button:active,
@@ -260,6 +271,7 @@
   .im_page_wrap,
   .im_selected_count,
   .inactive_title,
+  .link_preview_title,
   .login_footer_wrap,
   .md-input,
   .md_modal_list_peer_description .status_online,
@@ -267,7 +279,9 @@
   .reply_markup_button,
   .tg_head_connecting_text,
   .tg_head_peer_status,
+  .tgme_page_embed_code,
   .tgme_page_wrap,
+  .tgme_widget_message_footer,
   a.im_dialog .im_short_message_text,
   a.tgme_action_button,
   a.tgme_action_button_new {
@@ -309,7 +323,9 @@
   .login_footer_about_wrap,
   .login_form_wrap,
   .tg_head_logo_dropdown.open .dropdown-menu,
-  .tg_head_peer_dropdown .dropdown-menu {
+  .tg_head_peer_dropdown .dropdown-menu,
+  .tgme_page_embed_code,
+  .tgme_widget_message_bubble {
     border: 1px solid var(--gray)!important;
   }
   .tg_head_split {
@@ -431,4 +447,14 @@
   }
   .tgme_page_widget_actions a.tgme_action_web_button:hover {
     text-decoration: none;
+  }
+  .tgme_widget_message_bubble_tail .background {
+    fill: var(--gray);
+  }
+  .tgme_widget_message_bubble_tail .border {
+    stroke: var(--gray);
+  }
+  a.tgme_action_button.tgme_action_web_button {
+    border: 2px solid #5dc390;
+    padding: 13px 8px 11px;
   }
