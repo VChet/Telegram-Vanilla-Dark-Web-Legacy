@@ -427,7 +427,8 @@
     -webkit-filter: invert(100%);
             filter: invert(100%);
   }
-  .active .im_dialog_pinned {
+  .active .im_dialog_pinned,
+  .tgme_widget_message_views:after {
     -webkit-filter: brightness(250%); /* white */
             filter: brightness(250%);
   }
@@ -440,7 +441,7 @@
   }
 }
 
-/* t.me only */
+@-moz-document domain("t.me") {
   .tgme_page_web_action a.tgme_action_button:active,
   .tgme_page_web_action a.tgme_action_button:hover {
     background-color: #5DC390;
@@ -455,6 +456,18 @@
     stroke: var(--gray);
   }
   a.tgme_action_button.tgme_action_web_button {
-    border: 2px solid #5dc390;
     padding: 13px 8px 11px;
+    border: 2px solid #5DC390;
   }
+
+  .tgme_page_copy_action a.tgme_action_button_new:before,
+  .tgme_page_embed_btn a.tgme_action_button_new:before {
+    -webkit-filter: saturate(0%);
+            filter: saturate(0%);
+  }
+  .tgme_page_copy_action a.tgme_action_button_new:hover:before,
+  .tgme_page_embed_btn a.tgme_action_button_new:hover:before {
+    -webkit-filter: brightness(0%);
+            filter: brightness(0%);
+  }
+}
