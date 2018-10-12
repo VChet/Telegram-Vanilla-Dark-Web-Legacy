@@ -176,6 +176,7 @@
     background-color: var(--gray-dark);
   }
   .btn,
+  .button,
   .composer_dropdown li a.composer_command_option:hover,
   .composer_dropdown_wrap,
   .contacts_modal_col .nano > .nano-pane,
@@ -189,6 +190,8 @@
   .im_dialogs_modal_col .nano > .nano-pane,
   .im_dialogs_scrollable_wrap a.im_dialog:hover,
   .im_history_col .nano > .nano-pane,
+  .im_history_select_active .im_message_outer_wrap:hover,
+  .im_message_file_button,
   .im_message_reply_border,
   .im_message_selected .im_message_outer_wrap,
   .im_message_unread_split,
@@ -201,17 +204,12 @@
   .tg_head_btn:hover,
   .tg_head_logo_dropdown .dropdown-menu > li > a:hover,
   .tg_head_peer_dropdown .dropdown-menu > li > a:hover,
-  a.tgme_head_dl_button:active,
-  a.tgme_head_dl_button:hover {
-    background-color: var(--gray);
-  }
-  .button,
-  .im_history_select_active .im_message_outer_wrap:hover,
-  .im_message_file_button,
   .tg_slider_track,
   .tgme_page_web_action a.tgme_action_button,
   a.tgme_action_button,
-  a.tgme_action_button_new {
+  a.tgme_action_button_new,
+  a.tgme_head_dl_button:active,
+  a.tgme_head_dl_button:hover {
     background-color: var(--gray);
   }
   .countries_scrollable_wrap a.countries_modal_country:hover .countries_modal_country_code,
