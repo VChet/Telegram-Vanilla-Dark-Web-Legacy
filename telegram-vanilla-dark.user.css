@@ -148,6 +148,7 @@
   .icon-tooltip-tail,
   .im_bottom_panel_wrap,
   .im_dialogs_col_wrap,
+  .im_dialogs_modal_col_wrap .im_dialogs_search_field,
   .im_dialogs_panel,
   .im_dialogs_scrollable_wrap a.im_dialog_searchpeer,
   .im_dialogs_search_field,
@@ -296,6 +297,7 @@
     border-radius: 0;
   }
   .contacts_modal_search_field,
+  .im_dialogs_modal_col_wrap .im_dialogs_search_field,
   .im_dialogs_search_field,
   .im_dialogs_search_field:active,
   .im_dialogs_search_field:focus,
