@@ -276,10 +276,6 @@
   .active a.im_dialog .im_short_message_text {
     color: #FFFFFF!important;
   }
-  .tgme_page_web_action a.tgme_action_button:active,
-  .tgme_page_web_action a.tgme_action_button:hover {
-    background-color: #5DC390;
-  }
   .im_service_message {
     margin: 0;
     padding: 9px 7px;
@@ -427,3 +423,12 @@
             filter: brightness(75%);
   }
 }
+
+/* t.me only */
+  .tgme_page_web_action a.tgme_action_button:active,
+  .tgme_page_web_action a.tgme_action_button:hover {
+    background-color: #5DC390;
+  }
+  .tgme_page_widget_actions a.tgme_action_web_button:hover {
+    text-decoration: none;
+  }
