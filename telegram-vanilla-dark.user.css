@@ -264,6 +264,7 @@
   h3 {
     color: var(--light);
   }
+  p.tg_checkbox,
   .btn,
   .composer_command_desc,
   .composer_command_option:hover .composer_command_desc,
