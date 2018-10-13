@@ -37,8 +37,8 @@
   body,
   body.body_widget_post,
   html {
-    color: var(--text);
     background-color: var(--gray-bg)!important;
+    color: var(--text);
   }
   .btn-link:hover,
   .btn-md:hover,
@@ -359,18 +359,18 @@
   /* Box-shadows */
   .composer_emoji_tooltip_tab_shadow {
     -webkit-box-shadow: 0 1px 0 var(--main);
-            box-shadow: 0 1px 0 var(--main);
+    box-shadow: 0 1px 0 var(--main);
   }
   .composer_rich_textarea,
   .composer_textarea,
   .login_footer_about_wrap,
   .login_form_wrap {
     -webkit-box-shadow: 0 1px 0 var(--gray);
-            box-shadow: 0 1px 0 var(--gray);
+    box-shadow: 0 1px 0 var(--gray);
   }
   .composer_rich_textarea:focus {
     -webkit-box-shadow: 0 2px 0 0 var(--main-dark);
-            box-shadow: 0 2px 0 0 var(--main-dark);
+    box-shadow: 0 2px 0 0 var(--main-dark);
   }
   .composer_dropdown_wrap,
   .im_page_wrap,
@@ -378,7 +378,7 @@
   .tg_head_logo_dropdown .dropdown-menu,
   .tg_head_peer_dropdown .dropdown-menu {
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .btn.btn-link.dropdown-toggle,
   .im_submit_send,
@@ -388,7 +388,7 @@
   }
   .im_message_focus_active .im_message_outer_wrap {
     -webkit-animation-duration: 2s;
-            animation-duration: 2s;
+    animation-duration: 2s;
   }
   @-webkit-keyframes im_message_focus_fade {
     from {
@@ -426,19 +426,19 @@
   /* Hue rotation */
   .composer_emoji_tooltip_category i {
     -webkit-filter: invert(100%);
-            filter: invert(100%);
+    filter: invert(100%);
   }
   .active .im_dialog_pinned,
   .tgme_widget_message_views:after {
     -webkit-filter: brightness(250%); /* white */
-            filter: brightness(250%);
+    filter: brightness(250%);
   }
   .icon-filter-audio,
   .icon-filter-documents,
   .icon-filter-photos,
   .icon-filter-video {
     -webkit-filter: brightness(75%);
-            filter: brightness(75%);
+    filter: brightness(75%);
   }
 }
 
@@ -464,11 +464,11 @@
   .tgme_page_copy_action a.tgme_action_button_new:before,
   .tgme_page_embed_btn a.tgme_action_button_new:before {
     -webkit-filter: saturate(0%);
-            filter: saturate(0%);
+    filter: saturate(0%);
   }
   .tgme_page_copy_action a.tgme_action_button_new:hover:before,
   .tgme_page_embed_btn a.tgme_action_button_new:hover:before {
     -webkit-filter: brightness(0%);
-            filter: brightness(0%);
+    filter: brightness(0%);
   }
 }

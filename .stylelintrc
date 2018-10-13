@@ -17,7 +17,7 @@
         font-family-name-quotes: always-where-recommended,
         font-family-no-duplicate-names: true,
         function-url-quotes: always,
-        indentation: null,
+        indentation: 2,
         no-descending-specificity: null,
         number-leading-zero: always,
         number-max-precision: 3,
