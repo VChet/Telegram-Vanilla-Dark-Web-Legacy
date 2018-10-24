@@ -28,6 +28,7 @@
   .im_dialogs_scrollable_wrap .active a.im_dialog,
   .im_dialogs_scrollable_wrap .active a.im_dialog:hover,
   .im_history_col .nano > .nano-pane > .nano-slider,
+  .im_send_dropbox_wrap,
   .nav-pills > li.active > a,
   .open .btn-primary.dropdown-toggle,
   .reply_markup_button:focus,
@@ -102,6 +103,7 @@
   .btn-primary:active,
   .btn-primary:focus,
   .btn-primary:hover,
+  .im_send_dropbox_wrap,
   .btn:hover .im_selected_count,
   .open .btn-primary.dropdown-toggle,
   .reply_markup_button:focus,
@@ -284,6 +286,7 @@
   .im_dialogs_search_field:active,
   .im_dialogs_search_field:focus,
   .im_edit_panel_border,
+  .im_send_dropbox_wrap,
   .tg_radio.tg_radio_on .icon-radio-outer {
     border-color: var(--gray-dark)!important;
   }
