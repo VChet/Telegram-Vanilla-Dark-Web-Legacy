@@ -34,12 +34,6 @@
   /*[[color-theme]]*/
   /*[[border-radius]]*/
 
-  body,
-  body.body_widget_post,
-  html {
-    background-color: var(--gray-bg)!important;
-    color: var(--text);
-  }
   .btn-link:hover,
   .btn-md:hover,
   .btn-primary.active,
@@ -123,6 +117,12 @@
   a strong:hover,
   a:hover {
     color: var(--main-light)!important;
+  }
+  .tgme_page_widget_actions,
+  body,
+  body.body_widget_post,
+  html {
+    background-color: var(--gray-bg)!important;
   }
   .badge,
   .btn-link:hover,
@@ -267,6 +267,7 @@
   h3 {
     color: var(--light);
   }
+  body,
   .btn,
   .composer_command_desc,
   .composer_command_option:hover .composer_command_desc,
@@ -288,6 +289,8 @@
   a.im_dialog .im_short_message_text,
   a.tgme_action_button,
   a.tgme_action_button_new,
+  body.body_widget_post,
+  html,
   p.tg_checkbox {
     color: var(--text)!important;
   }
@@ -337,6 +340,7 @@
     border-right: 1px solid var(--gray);
     border-left: 1px solid var(--gray);
   }
+  .fixed_actions .tgme_page_widget_actions,
   .im_bottom_panel_wrap {
     border-top: 1px solid var(--gray);
   }
