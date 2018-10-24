@@ -105,6 +105,7 @@
   .im_submit_send_label:focus,
   .im_submit_send_label:hover,
   .link_preview_site_name,
+  .link_preview_title,
   .md_modal_section_param_name,
   a strong,
   a {
@@ -266,7 +267,6 @@
   h3 {
     color: var(--light);
   }
-  p.tg_checkbox,
   .btn,
   .composer_command_desc,
   .composer_command_option:hover .composer_command_desc,
@@ -274,7 +274,7 @@
   .im_page_wrap,
   .im_selected_count,
   .inactive_title,
-  .link_preview_title,
+  .link_preview_description,
   .login_footer_wrap,
   .md-input,
   .md_modal_list_peer_description .status_online,
@@ -287,7 +287,8 @@
   .tgme_widget_message_footer,
   a.im_dialog .im_short_message_text,
   a.tgme_action_button,
-  a.tgme_action_button_new {
+  a.tgme_action_button_new,
+  p.tg_checkbox {
     color: var(--text)!important;
   }
   .active a.im_dialog .im_short_message_text {
