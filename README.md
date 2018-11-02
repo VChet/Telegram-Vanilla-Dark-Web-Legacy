@@ -23,9 +23,9 @@ Anyone and everyone is welcome to [contribute](https://github.com/VChet/Telegram
 ## Development
 1. [Fork](https://github.com/VChet/Telegram-Vanilla-Dark/fork) and download this repository.
 1. Install [Node.js](https://nodejs.org/).
-1. Install all dependencies using `npm install`
-1. Install gulp `npm install -g gulp`
-1. Make your changes
+1. Install all dependencies using `npm install`.
+1. Install gulp-cli using `npm install -g gulp-cli`.
+1. Make your changes.
 1. Use available tasks if needed:
    * `gulp lint`: runs Stylelint on all css files.
    * `gulp patch`: increments the version on the patch version number, creates commit and tag.
