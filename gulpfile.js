@@ -7,11 +7,9 @@ function lint() {
     .pipe(stylelint({
       reporters: [{
         formatter: "string",
-        console: true,
-        fix: true
+        console: true
       }]
-    }))
-    .pipe(gulp.dest('./'));
+    }));
 }
 
 gulp.task('lint', function() {
