@@ -36,14 +36,14 @@
   a.composer_emoji_btn:hover,
   a.tgme_action_button_new:active,
   a.tgme_action_button_new:hover {
-    background-color: var(--main-dark);
+    background-color: var(--main-dark) !important;
   }
   .im_message_outer_wrap span.im_message_sign_link,
   .im_message_outer_wrap.hasselect:hover span.im_message_sign_link,
   .im_submit_send_label,
   a.im_dialog .im_short_message_media,
   a.im_dialog .im_short_message_service {
-    color: var(--main-dark);
+    color: var(--main-dark) !important;
   }
   .audio_player_seek_slider .tg_slider_track_fill,
   .audio_player_volume_slider .tg_slider_thumb,
@@ -59,7 +59,7 @@
   .tg_slider_track_fill,
   .tgme_head_wrap,
   a.tg_radio_on:hover i.icon-radio {
-    background-color: var(--main);
+    background-color: var(--main) !important;
   }
   .btn-link.dropdown-toggle,
   .composer_command_value,
@@ -76,26 +76,26 @@
   .md_modal_section_param_name,
   a strong,
   a {
-    color: var(--main)!important;
+    color: var(--main) !important;
   }
   .active .im_dialog_unread,
   .icon-message-status,
   .im_history_pinned_hide:hover .icon-reply-bar,
   a.im_dialog:hover .im_dialog_unread {
-    background-color: var(--main-light);
+    background-color: var(--main-light) !important;
   }
   .btn.btn-link.dropdown-toggle:hover,
   .im_message_author:hover,
   .im_message_fwd_author:hover,
   a strong:hover,
   a:hover {
-    color: var(--main-light)!important;
+    color: var(--main-light) !important;
   }
   .tgme_page_widget_actions,
   body,
   body.body_widget_post,
   html {
-    background-color: var(--gray-bg)!important;
+    background-color: var(--gray-bg) !important;
   }
   .badge,
   .btn-link:hover,
@@ -113,7 +113,7 @@
   a.tgme_action_button:hover,
   a.tgme_action_button_new:focus,
   a.tgme_action_button_new:hover {
-    color: var(--gray-bg)!important;
+    color: var(--gray-bg) !important;
   }
   .composer_command_option,
   .composer_emoji_tooltip,
@@ -156,7 +156,7 @@
   .tgme_widget_message_reply:before,
   a.im_dialog,
   a.tgme_head_dl_button {
-    background-color: var(--gray-dark);
+    background-color: var(--gray-dark) !important;
   }
   .btn,
   .button,
@@ -197,7 +197,7 @@
   a.tgme_action_button_new,
   a.tgme_head_dl_button:active,
   a.tgme_head_dl_button:hover {
-    background-color: var(--gray);
+    background-color: var(--gray) !important;
   }
   .countries_scrollable_wrap a.countries_modal_country:hover .countries_modal_country_code,
   .im_bot_intro_message_wrap,
@@ -238,7 +238,7 @@
   a.im_dialog .im_dialog_chat_from_wrap,
   a.im_dialog:hover .im_dialog_date,
   h3 {
-    color: var(--light);
+    color: var(--light) !important;
   }
   body,
   .btn,
@@ -265,25 +265,24 @@
   body.body_widget_post,
   html,
   p.tg_checkbox {
-    color: var(--text)!important;
+    color: var(--text) !important;
   }
-  .active a.im_dialog .im_short_message_text {
-    color: #FFFFFF!important;
+  .active .im_dialog_date,
+  .active .im_dialog_peer,
+  .active a.im_dialog .im_dialog_chat_from_wrap,
+  .active a.im_dialog .im_short_message_media,
+  .active a.im_dialog .im_short_message_text,
+  .active a.im_dialog:hover .im_dialog_date {
+    color: #FFFFFF !important;
   }
   .im_service_message {
-    margin: 0;
-    padding: 9px 7px;
+    margin: 0 !important;
+    padding: 9px 7px  !important;
   }
   .im_dialogs_panel {
-    padding: 8px;
+    padding: 8px !important;
   }
   /* Borders */
-  .tg_radio .icon-radio-outer,
-  a strong,
-  a {
-    border: 0;
-    border-radius: 0;
-  }
   .contacts_modal_search_field,
   .im_dialogs_modal_col_wrap .im_dialogs_search_field,
   .im_dialogs_search_field,
@@ -292,7 +291,7 @@
   .im_edit_panel_border,
   .im_send_dropbox_wrap,
   .tg_radio.tg_radio_on .icon-radio-outer {
-    border-color: var(--gray-dark)!important;
+    border-color: var(--gray-dark) !important;
   }
   .composer_dropdown_wrap,
   .composer_emoji_tooltip,
@@ -307,69 +306,69 @@
   .tg_head_peer_dropdown .dropdown-menu,
   .tgme_page_embed_code,
   .tgme_widget_message_bubble {
-    border: 1px solid var(--gray)!important;
+    border: 1px solid var(--gray) !important;
   }
   .tg_head_split {
-    border-right: 1px solid var(--gray);
-    border-left: 1px solid var(--gray);
+    border-right: 1px solid var(--gray) !important;
+    border-left: 1px solid var(--gray) !important;
   }
   .fixed_actions .tgme_page_widget_actions,
   .im_bottom_panel_wrap {
-    border-top: 1px solid var(--gray);
+    border-top: 1px solid var(--gray) !important;
   }
   .im_dialogs_col_wrap,
   .tg_head_logo_wrap {
-    border-right: 1px solid var(--gray);
+    border-right: 1px solid var(--gray) !important;
   }
   .im_history_col_wrap {
-    border-left: 1px solid var(--gray);
+    border-left: 1px solid var(--gray) !important;
   }
   .im_dialog_wrap,
   .im_dialogs_panel,
   .im_history_pinned_wrap,
   .md-input-group,
   .md_modal_iconed_section_wrap {
-    border-bottom: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray) !important;
   }
   .im_message_webpage_wrap {
-    border-left-color: var(--gray);
+    border-left-color: var(--gray) !important;
   }
   .md_modal_section_splitter {
-    border-top-color: var(--main-dark);
+    border-top-color: var(--main-dark) !important;
   }
   /* Box-shadows */
   .composer_emoji_tooltip_tab_shadow {
-    -webkit-box-shadow: 0 1px 0 var(--main);
-    box-shadow: 0 1px 0 var(--main);
+    -webkit-box-shadow: 0 1px 0 var(--main) !important;
+    box-shadow: 0 1px 0 var(--main) !important;
   }
   .composer_rich_textarea,
   .composer_textarea,
   .login_footer_about_wrap,
   .login_form_wrap {
-    -webkit-box-shadow: 0 1px 0 var(--gray);
-    box-shadow: 0 1px 0 var(--gray);
+    -webkit-box-shadow: 0 1px 0 var(--gray) !important;
+    box-shadow: 0 1px 0 var(--gray) !important;
   }
   .composer_rich_textarea:focus {
-    -webkit-box-shadow: 0 2px 0 0 var(--main-dark);
-    box-shadow: 0 2px 0 0 var(--main-dark);
+    -webkit-box-shadow: 0 2px 0 0 var(--main-dark) !important;
+    box-shadow: 0 2px 0 0 var(--main-dark) !important;
   }
   .composer_dropdown_wrap,
   .im_page_wrap,
   .md_modal_section_splitter,
   .tg_head_logo_dropdown .dropdown-menu,
   .tg_head_peer_dropdown .dropdown-menu {
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
   }
   .btn.btn-link.dropdown-toggle,
   .im_submit_send,
   .im_submit_send:focus,
   .im_submit_send:hover {
-    background-color: transparent;
+    background-color: transparent !important;
   }
   .im_message_focus_active .im_message_outer_wrap {
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
+    -webkit-animation-duration: 2s !important;
+    animation-duration: 2s !important;
   }
   @-webkit-keyframes im_message_focus_fade {
     from {
@@ -382,74 +381,74 @@
     }
   }
   ::-moz-selection {
-    background-color: var(--main);
-    color: #FFFFFF;
+    background-color: var(--main) !important;
+    color: #FFFFFF !important;
   }
   ::selection {
-    background-color: var(--main);
-    color: #FFFFFF;
+    background-color: var(--main) !important;
+    color: #FFFFFF !important;
   }
   /* Progress arc */
   .progress-arc-intermediate .progress-arc .progress-arc-bar {
-    stroke: var(--main);
+    stroke: var(--main) !important;
   }
   .stop0,
   .stop60,
   .stop100 {
-    stop-color: var(--main);
+    stop-color: var(--main) !important;
   }
   .composer_emoji_insert_btn:hover .icon-emoji {
-    opacity: 0.8;
+    opacity: 0.8 !important;
   }
   .composer_emoji_insert_btn_on:hover .icon-emoji {
-    opacity: 1;
+    opacity: 1 !important;
   }
   /* Hue rotation */
   .composer_emoji_tooltip_category i {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
+    -webkit-filter: invert(100%) !important;
+    filter: invert(100%) !important;
   }
   .active .im_dialog_pinned,
   .tgme_widget_message_views:after {
-    -webkit-filter: brightness(250%); /* white */
-    filter: brightness(250%);
+    -webkit-filter: brightness(250%) !important;
+    filter: brightness(250%) !important;
   }
   .icon-filter-audio,
   .icon-filter-documents,
   .icon-filter-photos,
   .icon-filter-video {
-    -webkit-filter: brightness(75%);
-    filter: brightness(75%);
+    -webkit-filter: brightness(75%) !important;
+    filter: brightness(75%) !important;
   }
 }
 
 @-moz-document domain("t.me") {
   .tgme_page_web_action a.tgme_action_button:active,
   .tgme_page_web_action a.tgme_action_button:hover {
-    background-color: #5DC390;
+    background-color: #5DC390 !important;
   }
   .tgme_page_widget_actions a.tgme_action_web_button:hover {
-    text-decoration: none;
+    text-decoration: none !important;
   }
   .tgme_widget_message_bubble_tail .background {
-    fill: var(--gray);
+    fill: var(--gray) !important;
   }
   .tgme_widget_message_bubble_tail .border {
-    stroke: var(--gray);
+    stroke: var(--gray) !important;
   }
   a.tgme_action_button.tgme_action_web_button {
-    padding: 13px 8px 11px;
-    border: 2px solid #5DC390;
+    padding: 13px 8px 11px !important;
+    border: 2px solid #5DC390 !important;
   }
 
   .tgme_page_copy_action a.tgme_action_button_new:before,
   .tgme_page_embed_btn a.tgme_action_button_new:before {
-    -webkit-filter: saturate(0%);
-    filter: saturate(0%);
+    -webkit-filter: saturate(0%) !important;
+    filter: saturate(0%) !important;
   }
   .tgme_page_copy_action a.tgme_action_button_new:hover:before,
   .tgme_page_embed_btn a.tgme_action_button_new:hover:before {
-    -webkit-filter: brightness(0%);
-    filter: brightness(0%);
+    -webkit-filter: brightness(0%) !important;
+    filter: brightness(0%) !important;
   }
 }
