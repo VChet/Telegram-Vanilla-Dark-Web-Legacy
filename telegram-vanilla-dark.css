@@ -58,7 +58,7 @@
   .tg_slider_thumb,
   .tg_slider_track_fill,
   .tgme_head_wrap,
-  a.tg_radio_on:hover i.icon-radio {
+  a.tg_radio.tg_radio_on:hover i.icon-radio {
     background-color: var(--main) !important;
   }
   .btn-link.dropdown-toggle,
@@ -146,16 +146,17 @@
   .im_service_message_wrap,
   .login_footer_about_wrap,
   .login_form_wrap,
-  .md-input,
   .md_modal_body,
   .md_modal_footer,
   .md_simple_modal_wrap,
+  .md-input,
   .tg_head_split,
   .tgme_widget_message_game:before,
   .tgme_widget_message_link_preview:before,
   .tgme_widget_message_reply:before,
   a.im_dialog,
-  a.tgme_head_dl_button {
+  a.tgme_head_dl_button,
+  i.icon-radio {
     background-color: var(--gray-dark) !important;
   }
   .btn,
@@ -240,6 +241,9 @@
   h3 {
     color: var(--light) !important;
   }
+  a.tg_radio:hover i.icon-radio {
+    background-color: var(--light) !important;
+  }
   body,
   .btn,
   .composer_command_desc,
@@ -290,8 +294,16 @@
   .im_dialogs_search_field:focus,
   .im_edit_panel_border,
   .im_send_dropbox_wrap,
-  .tg_radio.tg_radio_on .icon-radio-outer {
+  .tg_radio.tg_radio_on .icon-radio-outer,
+  .tg_radio.tg_radio_on i.icon-radio,
+  i.icon-radio {
     border-color: var(--gray-dark) !important;
+  }
+  .tg_radio.tg_radio_on .icon-radio-outer {
+    border-color: var(--main) !important;
+  }
+  .tg_radio .icon-radio-outer {
+    border-color: var(--light) !important;
   }
   .composer_dropdown_wrap,
   .composer_emoji_tooltip,
