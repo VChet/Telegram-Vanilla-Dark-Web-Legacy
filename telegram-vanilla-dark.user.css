@@ -271,7 +271,6 @@
   a.tg_radio:hover i.icon-radio {
     background-color: var(--light) !important;
   }
-  body,
   .btn,
   .composer_command_desc,
   .composer_command_option:hover .composer_command_desc,
@@ -281,18 +280,20 @@
   .inactive_title,
   .link_preview_description,
   .login_footer_wrap,
-  .md-input,
   .md_modal_list_peer_description .status_online,
   .md_modal_list_peer_description.status_online,
+  .md-input,
   .reply_markup_button,
+  .session_active_date_online,
   .tg_head_connecting_text,
   .tg_head_peer_status,
   .tgme_page_embed_code,
   .tgme_page_wrap,
   .tgme_widget_message_footer,
   a.im_dialog .im_short_message_text,
-  a.tgme_action_button,
   a.tgme_action_button_new,
+  a.tgme_action_button,
+  body,
   body.body_widget_post,
   html,
   p.tg_checkbox {
@@ -325,6 +326,9 @@
   .tg_radio.tg_radio_on i.icon-radio,
   i.icon-radio {
     border-color: var(--gray-dark) !important;
+  }
+  hr {
+    border-color: var(--gray) !important;
   }
   .tg_radio.tg_radio_on .icon-radio-outer {
     border-color: var(--main) !important;
