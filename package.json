@@ -13,8 +13,10 @@
     "url": "https://github.com/VChet/Telegram-Vanilla-Dark/issues"
   },
   "devDependencies": {
+    "fs-extra": "^7.0.0",
     "gulp": "^4.0.0",
     "gulp-stylelint": "^8.0.0",
+    "minify": "^4.0.1",
     "stylelint": "^9.7.1",
     "stylelint-config-standard": "^18.2.0",
     "ver": "^3.0.0"

@@ -32,3 +32,7 @@ gulp.task('major', function() {
   lint();
   return exec(`npx ver major -p ${usercss}`);
 });
+
+gulp.task('usercss', function() {
+  return exec(`node ./options/build-usercss.js`);
+});

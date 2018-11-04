@@ -1,0 +1,27 @@
+/* ==UserStyle==
+@name        Telegram Vanilla Dark
+@description Dark theme for web.telegram.org
+@namespace   Telegram Vanilla Dark
+@version     {{version}}
+@author      VChet
+@homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
+@updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
+@supportURL  https://github.com/VChet/Telegram-Vanilla-Dark/issues
+@license     CC-BY-SA-4.0
+@advanced dropdown border-radius "Reduce avatar rounding" {
+  No "No" <<<EOT
+  EOT;
+  Yes "Yes" <<<EOT
+  {{border-radius}} EOT;
+}
+@advanced dropdown color-theme "Color Theme" {
+  Cream "Cream" <<<EOT
+  {{cream}} EOT;
+  Aqua "Aqua" <<<EOT
+  {{aqua}} EOT;
+  Green "Green" <<<EOT
+  {{green}} EOT;
+  Red "Red" <<<EOT
+  {{red}} EOT;
+}
+==/UserStyle== */

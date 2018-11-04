@@ -1,0 +1,37 @@
+/* Red */
+:root {
+  --main-dark: #B35843;
+  --main: #FF7B5D;
+  --main-light: #FF926D;
+  --gray-bg: #262A2E;
+  --gray-dark: #2B3034;
+  --gray: #2F353A;
+  --light: #AAAAAA;
+  --text: #959595;
+}
+.icon-message-views,
+.icon-select-tick,
+.im_message_file_button_icon,
+.md_modal_split_action_camera,
+.md_modal_split_action_msg,
+.md_modal_split_action_twitter {
+  -webkit-filter: hue-rotate(160deg) !important;
+  filter: hue-rotate(160deg) !important;
+}
+.composer_command_btn.active .icon-slash,
+.composer_emoji_insert_btn:active .icon-emoji,
+.composer_emoji_insert_btn_on .icon-emoji,
+.composer_emoji_tooltip_category.active i,
+.icon-about,
+.icon-contacts,
+.icon-faq,
+.icon-keyboard,
+.icon-new-group,
+.icon-settings,
+.im_attach:active .icon-paperclip,
+.im_dialog_pinned,
+.im_media_attach:active .icon-camera,
+.im_record:active .icon-mic {
+  -webkit-filter: brightness(50%) sepia(1) hue-rotate(-26.6deg) saturate(308.4%) brightness(130%) !important;
+  filter: brightness(50%) sepia(1) hue-rotate(-26.6deg) saturate(308.4%) brightness(130%) !important;
+}

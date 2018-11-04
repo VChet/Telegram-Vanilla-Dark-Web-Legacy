@@ -1,0 +1,12 @@
+.composer_user_photo,
+.im_dialog_photo,
+.im_message_contact_photo,
+.im_message_from_photo,
+.im_message_fwd_photo,
+.im_panel_own_photo,
+.im_panel_peer_photo,
+.md_modal_list_peer_photo,
+.media_modal_author_photo,
+.peer_modal_photo {
+  border-radius: 10% !important;
+}
