@@ -280,6 +280,9 @@
   .active a.im_dialog:hover .im_dialog_date {
     color: #FFFFFF !important;
   }
+  .active .im_dialog_badge {
+    background-color: #FFFFFF !important;
+  }
   .im_service_message {
     margin: 0 !important;
     padding: 9px 7px  !important;
