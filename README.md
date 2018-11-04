@@ -25,9 +25,12 @@ Anyone and everyone is welcome to [contribute](https://github.com/VChet/Telegram
 1. Install [Node.js](https://nodejs.org/).
 1. Install all dependencies using `npm install`.
 1. Install gulp-cli using `npm install -g gulp-cli`.
-1. Make your changes.
+1. Make your changes:
+   * In `telegram-vanilla-dark.css` for common styles.
+   * In `/options/themes` for different color themes.
 1. Use available tasks if needed:
    * `gulp lint`: runs Stylelint on all css files.
+   * `gulp usercss`: builds a usercss style.
    * `gulp patch`: increments the version on the patch version number, creates commit and tag.
    * `gulp minor`: increments the version on the minor version number, creates commit and tag.
    * `gulp major`: increments the version on the major version number, creates commit and tag.
