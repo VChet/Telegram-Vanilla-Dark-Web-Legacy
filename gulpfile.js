@@ -5,7 +5,11 @@ const exec = require('child_process').exec;
 const usercss = "telegram-vanilla-dark.user.css";
 
 function lint() {
-  return gulp.src('./*.css')
+  return gulp.src(
+    [
+      './**/*.css',
+      '!./node_modules/**'
+    ])
     .pipe(stylelint({
       reporters: [{
         formatter: "string",
