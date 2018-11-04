@@ -433,7 +433,7 @@
   }
   /* Progress arc */
   .progress-arc-intermediate .progress-arc .progress-arc-bar {
-    stroke: var(--main) !important;
+    stroke: var(--main);
   }
   .stop0,
   .stop60,
