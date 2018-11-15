@@ -105,7 +105,6 @@
   a {
     color: var(--main) !important;
   }
-  .active .im_dialog_unread,
   .icon-message-status,
   .im_history_pinned_hide:hover .icon-reply-bar,
   a.im_dialog:hover .im_dialog_unread {
@@ -307,7 +306,9 @@
   .active a.im_dialog:hover .im_dialog_date {
     color: #FFFFFF !important;
   }
-  .active .im_dialog_badge {
+  .active .im_dialog_badge,
+  .active .im_dialog_unread,
+  .active .im_dialog:hover .im_dialog_unread {
     background-color: #FFFFFF !important;
   }
   .im_service_message {
