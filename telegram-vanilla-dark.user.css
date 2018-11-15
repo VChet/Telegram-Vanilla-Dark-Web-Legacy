@@ -106,8 +106,7 @@
     color: var(--main) !important;
   }
   .icon-message-status,
-  .im_history_pinned_hide:hover .icon-reply-bar,
-  a.im_dialog:hover .im_dialog_unread {
+  .im_history_pinned_hide:hover .icon-reply-bar {
     background-color: var(--main-light) !important;
   }
   .btn.btn-link.dropdown-toggle:hover,
