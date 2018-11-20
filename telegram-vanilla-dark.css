@@ -61,7 +61,6 @@
   a.tg_radio.tg_radio_on:hover i.icon-radio {
     background-color: var(--main) !important;
   }
-  .btn-link.dropdown-toggle,
   .composer_command_value,
   .composer_emoji_tooltip_tab_emoji,
   .composer_emoji_tooltip_tabs_stickers_active .composer_emoji_tooltip_tab_stickers,
@@ -73,7 +72,6 @@
   .im_submit_send_label:hover,
   .link_preview_site_name,
   .link_preview_title,
-  .md_modal_section_param_name,
   a strong,
   a {
     color: var(--main) !important;
@@ -198,6 +196,7 @@
   a.tgme_head_dl_button:hover {
     background-color: var(--gray) !important;
   }
+  .btn-link.dropdown-toggle,
   .countries_scrollable_wrap a.countries_modal_country:hover .countries_modal_country_code,
   .im_bot_intro_message_wrap,
   .im_dialog_peer,
@@ -228,8 +227,8 @@
   .im_service_message,
   .login_form_head,
   .md_modal_head,
+  .md_modal_section_link,
   .md-input,
-  .peer_modal_profile_description,
   .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
   .tg_head_peer_media,
   .tg_head_peer_title,
@@ -237,6 +236,7 @@
   a.contacts_modal_contact:hover .md_modal_list_peer_description,
   a.im_dialog .im_dialog_chat_from_wrap,
   a.im_dialog:hover .im_dialog_date,
+  a.tg_checkbox,
   h1,
   h2,
   h3,
@@ -258,7 +258,9 @@
   .login_footer_wrap,
   .md_modal_list_peer_description .status_online,
   .md_modal_list_peer_description.status_online,
+  .md_modal_section_param_name,
   .md-input-label,
+  .peer_modal_profile_description,
   .reply_markup_button,
   .session_active_date_online,
   .tg_head_connecting_text,
