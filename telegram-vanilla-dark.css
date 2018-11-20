@@ -53,7 +53,7 @@
   a.tgme_action_button:hover,
   a.tgme_action_button_new:focus,
   a.tgme_action_button_new:hover {
-    color: var(--gray-bg) !important;
+    color: var(--gray-dark) !important;
   }
   .btn,
   .composer_command_desc,
@@ -193,7 +193,7 @@
   body,
   body.body_widget_post,
   html {
-    background-color: var(--gray-bg) !important;
+    background-color: var(--gray-dark) !important;
   }
   .composer_command_option,
   .composer_emoji_tooltip,
@@ -237,7 +237,7 @@
   a.im_dialog,
   a.tgme_head_dl_button,
   i.icon-radio {
-    background-color: var(--gray-dark) !important;
+    background-color: var(--gray) !important;
   }
   .btn,
   .button,
@@ -278,7 +278,7 @@
   a.tgme_action_button_new,
   a.tgme_head_dl_button:active,
   a.tgme_head_dl_button:hover {
-    background-color: var(--gray) !important;
+    background-color: var(--gray-light) !important;
   }
   a.tg_radio:hover i.icon-radio {
     background-color: var(--light) !important;
@@ -305,10 +305,10 @@
   .tg_radio.tg_radio_on .icon-radio-outer,
   .tg_radio.tg_radio_on i.icon-radio,
   i.icon-radio {
-    border-color: var(--gray-dark) !important;
+    border-color: var(--gray) !important;
   }
   hr {
-    border-color: var(--gray) !important;
+    border-color: var(--gray-light) !important;
   }
   .tg_radio.tg_radio_on .icon-radio-outer {
     border-color: var(--main) !important;
@@ -329,32 +329,32 @@
   .tg_head_peer_dropdown .dropdown-menu,
   .tgme_page_embed_code,
   .tgme_widget_message_bubble {
-    border: 1px solid var(--gray) !important;
+    border: 1px solid var(--gray-light) !important;
   }
   .tg_head_split {
-    border-right: 1px solid var(--gray) !important;
-    border-left: 1px solid var(--gray) !important;
+    border-right: 1px solid var(--gray-light) !important;
+    border-left: 1px solid var(--gray-light) !important;
   }
   .fixed_actions .tgme_page_widget_actions,
   .im_bottom_panel_wrap {
-    border-top: 1px solid var(--gray) !important;
+    border-top: 1px solid var(--gray-light) !important;
   }
   .im_dialogs_col_wrap,
   .tg_head_logo_wrap {
-    border-right: 1px solid var(--gray) !important;
+    border-right: 1px solid var(--gray-light) !important;
   }
   .im_history_col_wrap {
-    border-left: 1px solid var(--gray) !important;
+    border-left: 1px solid var(--gray-light) !important;
   }
   .im_dialog_wrap,
   .im_dialogs_panel,
   .im_history_pinned_wrap,
   .md-input-group,
   .md_modal_iconed_section_wrap {
-    border-bottom: 1px solid var(--gray) !important;
+    border-bottom: 1px solid var(--gray-light) !important;
   }
   .im_message_webpage_wrap {
-    border-left-color: var(--gray) !important;
+    border-left-color: var(--gray-light) !important;
   }
   .md_modal_section_splitter {
     border-top-color: var(--main-dark) !important;
@@ -368,8 +368,8 @@
   .composer_textarea,
   .login_footer_about_wrap,
   .login_form_wrap {
-    -webkit-box-shadow: 0 1px 0 var(--gray) !important;
-    box-shadow: 0 1px 0 var(--gray) !important;
+    -webkit-box-shadow: 0 1px 0 var(--gray-light) !important;
+    box-shadow: 0 1px 0 var(--gray-light) !important;
   }
   .composer_rich_textarea:focus {
     -webkit-box-shadow: 0 2px 0 0 var(--main-dark) !important;
@@ -389,12 +389,12 @@
   }
   @-webkit-keyframes im_message_focus_fade {
     from {
-      background-color: var(--gray);
+      background-color: var(--gray-light);
     }
   }
   @keyframes im_message_focus_fade {
     from {
-      background-color: var(--gray);
+      background-color: var(--gray-light);
     }
   }
   /* Selection */
@@ -457,10 +457,10 @@
     text-decoration: none !important;
   }
   .tgme_widget_message_bubble_tail .background {
-    fill: var(--gray) !important;
+    fill: var(--gray-light) !important;
   }
   .tgme_widget_message_bubble_tail .border {
-    stroke: var(--gray) !important;
+    stroke: var(--gray-light) !important;
   }
   a.tgme_action_button.tgme_action_web_button {
     padding: 13px 8px 11px !important;

@@ -3,11 +3,11 @@
   --main-dark: #4B8B60;
   --main: #63B97F;
   --main-light: #7AD08F;
-  --gray-bg: #19191A;
-  --gray-dark: #212122;
-  --gray: #2A2A2C;
-  --light: #AAAAAA;
+  --gray-dark: #19191A;
+  --gray: #212122;
+  --gray-light: #2A2A2C;
   --text: #959595;
+  --light: #AAAAAA;
 }
 .icon-message-views,
 .icon-select-tick,
