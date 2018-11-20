@@ -237,7 +237,11 @@
   a.contacts_modal_contact:hover .md_modal_list_peer_description,
   a.im_dialog .im_dialog_chat_from_wrap,
   a.im_dialog:hover .im_dialog_date,
-  h3 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     color: var(--light) !important;
   }
   a.tg_radio:hover i.icon-radio {
