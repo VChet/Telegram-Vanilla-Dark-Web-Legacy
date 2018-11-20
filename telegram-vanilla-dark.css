@@ -7,6 +7,137 @@
   /*[[color-theme]]*/
   /*[[border-radius]]*/
 
+  /* Color */
+  .im_message_outer_wrap span.im_message_sign_link,
+  .im_message_outer_wrap.hasselect:hover span.im_message_sign_link,
+  .im_submit_send_label,
+  a.im_dialog .im_short_message_media,
+  a.im_dialog .im_short_message_service {
+    color: var(--main-dark) !important;
+  }
+  .composer_command_value,
+  .composer_emoji_tooltip_tab_emoji,
+  .composer_emoji_tooltip_tabs_stickers_active .composer_emoji_tooltip_tab_stickers,
+  .dropdown-toggle,
+  .im_message_author,
+  .im_message_document_name,
+  .im_message_fwd_author,
+  .im_submit_send_label:focus,
+  .im_submit_send_label:hover,
+  .link_preview_site_name,
+  .link_preview_title,
+  a strong,
+  a {
+    color: var(--main) !important;
+  }
+  .btn.btn-link.dropdown-toggle:hover,
+  .im_message_author:hover,
+  .im_message_fwd_author:hover,
+  a strong:hover,
+  a:hover {
+    color: var(--main-light) !important;
+  }
+  .badge,
+  .btn-link:hover,
+  .btn-md:hover,
+  .btn-primary.active,
+  .btn-primary:active,
+  .btn-primary:focus,
+  .btn-primary:hover,
+  .im_send_dropbox_wrap,
+  .btn:hover .im_selected_count,
+  .open .btn-primary.dropdown-toggle,
+  .reply_markup_button:focus,
+  .reply_markup_button:hover,
+  a.tgme_action_button:focus,
+  a.tgme_action_button:hover,
+  a.tgme_action_button_new:focus,
+  a.tgme_action_button_new:hover {
+    color: var(--gray-bg) !important;
+  }
+  .btn,
+  .composer_command_desc,
+  .composer_command_option:hover .composer_command_desc,
+  .form-control,
+  .im_page_wrap,
+  .im_selected_count,
+  .inactive_title,
+  .link_preview_description,
+  .login_footer_wrap,
+  .md_modal_list_peer_description .status_online,
+  .md_modal_list_peer_description.status_online,
+  .md_modal_section_param_name,
+  .md-input-label,
+  .peer_modal_profile_description,
+  .reply_markup_button,
+  .session_active_date_online,
+  .tg_head_connecting_text,
+  .tg_head_peer_status,
+  .tgme_page_embed_code,
+  .tgme_page_wrap,
+  .tgme_widget_message_footer,
+  a.im_dialog .im_short_message_text,
+  a.tgme_action_button_new,
+  a.tgme_action_button,
+  body,
+  body.body_widget_post,
+  html,
+  p.tg_checkbox {
+    color: var(--text) !important;
+  }
+  .btn-link.dropdown-toggle,
+  .countries_scrollable_wrap a.countries_modal_country:hover .countries_modal_country_code,
+  .im_bot_intro_message_wrap,
+  .im_dialog_peer,
+  .im_history_select_active .im_message_outer_wrap:hover .im_message_audio_duration,
+  .im_history_select_active .im_message_outer_wrap:hover .im_message_audio_size,
+  .im_history_select_active .im_message_outer_wrap:hover .im_message_author_admin,
+  .im_history_select_active .im_message_outer_wrap:hover .im_message_date,
+  .im_history_select_active .im_message_outer_wrap:hover .im_message_document_size,
+  .im_history_select_active .im_message_outer_wrap:hover .im_message_fwd_date,
+  .im_history_select_active .im_message_outer_wrap:hover .im_message_views_cnt,
+  .im_message_focus_active .audio_player_duration,
+  .im_message_focus_active .audio_player_size,
+  .im_message_focus_active .im_message_author_admin,
+  .im_message_focus_active .im_message_date,
+  .im_message_focus_active .im_message_document_size,
+  .im_message_focus_active .im_message_edited,
+  .im_message_focus_active .im_message_fwd_date,
+  .im_message_focus_active .im_message_views_cnt,
+  .im_message_reply_author,
+  .im_message_selected .im_message_audio_duration,
+  .im_message_selected .im_message_audio_size,
+  .im_message_selected .im_message_author_admin,
+  .im_message_selected .im_message_date,
+  .im_message_selected .im_message_document_size,
+  .im_message_selected .im_message_fwd_date,
+  .im_message_selected .im_message_views_cnt,
+  .im_message_unread_split,
+  .im_service_message,
+  .login_form_head,
+  .md_modal_head,
+  .md_modal_section_link,
+  .md-input,
+  .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
+  .tg_head_peer_media,
+  .tg_head_peer_title,
+  .tgme_page_title,
+  a.contacts_modal_contact:hover .md_modal_list_peer_description,
+  a.im_dialog .im_dialog_chat_from_wrap,
+  a.im_dialog:hover .im_dialog_date,
+  a.tg_checkbox,
+  h1, h2, h3, h4, h5 {
+    color: var(--light) !important;
+  }
+  .active .im_dialog_date,
+  .active .im_dialog_peer,
+  .active a.im_dialog .im_dialog_chat_from_wrap,
+  .active a.im_dialog .im_short_message_media,
+  .active a.im_dialog .im_short_message_text,
+  .active a.im_dialog:hover .im_dialog_date {
+    color: #FFFFFF !important;
+  }
+  /* Background-color */
   .btn-link:hover,
   .btn-md:hover,
   .btn-primary.active,
@@ -37,13 +168,6 @@
   a.tgme_action_button_new:hover {
     background-color: var(--main-dark) !important;
   }
-  .im_message_outer_wrap span.im_message_sign_link,
-  .im_message_outer_wrap.hasselect:hover span.im_message_sign_link,
-  .im_submit_send_label,
-  a.im_dialog .im_short_message_media,
-  a.im_dialog .im_short_message_service {
-    color: var(--main-dark) !important;
-  }
   .audio_player_seek_slider .tg_slider_track_fill,
   .audio_player_volume_slider .tg_slider_thumb,
   .audio_player_volume_slider .tg_slider_track_fill,
@@ -61,55 +185,15 @@
   a.tg_radio.tg_radio_on:hover i.icon-radio {
     background-color: var(--main) !important;
   }
-  .composer_command_value,
-  .composer_emoji_tooltip_tab_emoji,
-  .composer_emoji_tooltip_tabs_stickers_active .composer_emoji_tooltip_tab_stickers,
-  .dropdown-toggle,
-  .im_message_author,
-  .im_message_document_name,
-  .im_message_fwd_author,
-  .im_submit_send_label:focus,
-  .im_submit_send_label:hover,
-  .link_preview_site_name,
-  .link_preview_title,
-  a strong,
-  a {
-    color: var(--main) !important;
-  }
   .icon-message-status,
   .im_history_pinned_hide:hover .icon-reply-bar {
     background-color: var(--main-light) !important;
-  }
-  .btn.btn-link.dropdown-toggle:hover,
-  .im_message_author:hover,
-  .im_message_fwd_author:hover,
-  a strong:hover,
-  a:hover {
-    color: var(--main-light) !important;
   }
   .tgme_page_widget_actions,
   body,
   body.body_widget_post,
   html {
     background-color: var(--gray-bg) !important;
-  }
-  .badge,
-  .btn-link:hover,
-  .btn-md:hover,
-  .btn-primary.active,
-  .btn-primary:active,
-  .btn-primary:focus,
-  .btn-primary:hover,
-  .im_send_dropbox_wrap,
-  .btn:hover .im_selected_count,
-  .open .btn-primary.dropdown-toggle,
-  .reply_markup_button:focus,
-  .reply_markup_button:hover,
-  a.tgme_action_button:focus,
-  a.tgme_action_button:hover,
-  a.tgme_action_button_new:focus,
-  a.tgme_action_button_new:hover {
-    color: var(--gray-bg) !important;
   }
   .composer_command_option,
   .composer_emoji_tooltip,
@@ -196,106 +280,19 @@
   a.tgme_head_dl_button:hover {
     background-color: var(--gray) !important;
   }
-  .btn-link.dropdown-toggle,
-  .countries_scrollable_wrap a.countries_modal_country:hover .countries_modal_country_code,
-  .im_bot_intro_message_wrap,
-  .im_dialog_peer,
-  .im_history_select_active .im_message_outer_wrap:hover .im_message_audio_duration,
-  .im_history_select_active .im_message_outer_wrap:hover .im_message_audio_size,
-  .im_history_select_active .im_message_outer_wrap:hover .im_message_author_admin,
-  .im_history_select_active .im_message_outer_wrap:hover .im_message_date,
-  .im_history_select_active .im_message_outer_wrap:hover .im_message_document_size,
-  .im_history_select_active .im_message_outer_wrap:hover .im_message_fwd_date,
-  .im_history_select_active .im_message_outer_wrap:hover .im_message_views_cnt,
-  .im_message_focus_active .audio_player_duration,
-  .im_message_focus_active .audio_player_size,
-  .im_message_focus_active .im_message_author_admin,
-  .im_message_focus_active .im_message_date,
-  .im_message_focus_active .im_message_document_size,
-  .im_message_focus_active .im_message_edited,
-  .im_message_focus_active .im_message_fwd_date,
-  .im_message_focus_active .im_message_views_cnt,
-  .im_message_reply_author,
-  .im_message_selected .im_message_audio_duration,
-  .im_message_selected .im_message_audio_size,
-  .im_message_selected .im_message_author_admin,
-  .im_message_selected .im_message_date,
-  .im_message_selected .im_message_document_size,
-  .im_message_selected .im_message_fwd_date,
-  .im_message_selected .im_message_views_cnt,
-  .im_message_unread_split,
-  .im_service_message,
-  .login_form_head,
-  .md_modal_head,
-  .md_modal_section_link,
-  .md-input,
-  .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
-  .tg_head_peer_media,
-  .tg_head_peer_title,
-  .tgme_page_title,
-  a.contacts_modal_contact:hover .md_modal_list_peer_description,
-  a.im_dialog .im_dialog_chat_from_wrap,
-  a.im_dialog:hover .im_dialog_date,
-  a.tg_checkbox,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    color: var(--light) !important;
-  }
   a.tg_radio:hover i.icon-radio {
     background-color: var(--light) !important;
-  }
-  .btn,
-  .composer_command_desc,
-  .composer_command_option:hover .composer_command_desc,
-  .form-control,
-  .im_page_wrap,
-  .im_selected_count,
-  .inactive_title,
-  .link_preview_description,
-  .login_footer_wrap,
-  .md_modal_list_peer_description .status_online,
-  .md_modal_list_peer_description.status_online,
-  .md_modal_section_param_name,
-  .md-input-label,
-  .peer_modal_profile_description,
-  .reply_markup_button,
-  .session_active_date_online,
-  .tg_head_connecting_text,
-  .tg_head_peer_status,
-  .tgme_page_embed_code,
-  .tgme_page_wrap,
-  .tgme_widget_message_footer,
-  a.im_dialog .im_short_message_text,
-  a.tgme_action_button_new,
-  a.tgme_action_button,
-  body,
-  body.body_widget_post,
-  html,
-  p.tg_checkbox {
-    color: var(--text) !important;
-  }
-  .active .im_dialog_date,
-  .active .im_dialog_peer,
-  .active a.im_dialog .im_dialog_chat_from_wrap,
-  .active a.im_dialog .im_short_message_media,
-  .active a.im_dialog .im_short_message_text,
-  .active a.im_dialog:hover .im_dialog_date {
-    color: #FFFFFF !important;
   }
   .active .im_dialog_badge,
   .active .im_dialog_unread,
   .active .im_dialog:hover .im_dialog_unread {
     background-color: #FFFFFF !important;
   }
-  .im_service_message {
-    margin: 0 !important;
-    padding: 9px 7px  !important;
-  }
-  .im_dialogs_panel {
-    padding: 8px !important;
+  .btn.btn-link.dropdown-toggle,
+  .im_submit_send,
+  .im_submit_send:focus,
+  .im_submit_send:hover {
+    background-color: transparent !important;
   }
   /* Borders */
   .contacts_modal_search_field,
@@ -386,12 +383,6 @@
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
   }
-  .btn.btn-link.dropdown-toggle,
-  .im_submit_send,
-  .im_submit_send:focus,
-  .im_submit_send:hover {
-    background-color: transparent !important;
-  }
   .im_message_focus_active .im_message_outer_wrap {
     -webkit-animation-duration: 2s !important;
     animation-duration: 2s !important;
@@ -406,6 +397,7 @@
       background-color: var(--gray);
     }
   }
+  /* Selection */
   ::-moz-selection {
     background-color: var(--main) !important;
     color: #FFFFFF !important;
@@ -413,6 +405,14 @@
   ::selection {
     background-color: var(--main) !important;
     color: #FFFFFF !important;
+  }
+  /* Margin / Padding */
+  .im_service_message {
+    margin: 0 !important;
+    padding: 9px 7px !important;
+  }
+  .im_dialogs_panel {
+    padding: 8px !important;
   }
   /* Progress arc */
   .progress-arc-intermediate .progress-arc .progress-arc-bar {
