@@ -4,7 +4,7 @@
         at-rule-empty-line-before: null,
         block-no-empty: null,
         block-opening-brace-space-before: null,
-        color-hex-case: null,
+        color-hex-case: upper,
         color-hex-length: long,
         color-named: null,
         comment-empty-line-before: null,
