@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     0.9.2
+@version     0.9.3
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -164,6 +164,38 @@
   .active a.im_dialog:hover .im_dialog_date {
     color: #FFFFFF !important;
   }
+  .user_color_1,
+  .user_color_1:hover {
+    color: #8365AB !important;
+  }
+  .user_color_2,
+  .user_color_2:hover {
+    color: #539E4F !important;
+  }
+  .user_color_3,
+  .user_color_3:hover {
+    color: #AE9661 !important;
+  }
+  .user_color_4,
+  .user_color_4:hover {
+    color: #4979A3 !important;
+  }
+  .user_color_5,
+  .user_color_5:hover {
+    color: #B7635D !important;
+  }
+  .user_color_6,
+  .user_color_6:hover {
+    color: #B3577A !important;
+  }
+  .user_color_7,
+  .user_color_7:hover {
+    color: #5397B4 !important;
+  }
+  .user_color_8,
+  .user_color_8:hover {
+    color: #C07844 !important;
+  }
   /* Background-color */
   .btn-link:hover,
   .btn-md:hover,
@@ -320,6 +352,9 @@
   .im_submit_send:focus,
   .im_submit_send:hover {
     background-color: transparent !important;
+  }
+  .im_message_mymention {
+    background-color: #464C7B !important;
   }
   /* Borders */
   .contacts_modal_search_field,
