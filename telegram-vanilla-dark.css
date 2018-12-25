@@ -70,6 +70,8 @@
   .peer_modal_profile_description,
   .reply_markup_button,
   .session_active_date_online,
+  .settings_modal_username_link,
+  .settings_modal_username_link:hover,
   .tg_head_connecting_text,
   .tg_head_peer_status,
   .tgme_page_embed_code,
