@@ -5,7 +5,7 @@
 Dark theme for [web.telegram.org](https://web.telegram.org).
 
 ## Preview
-![](./screenshots/color-themes.png)
+![](./images/screenshots/color-themes.png)
 
 ## Installation
 1. Install Stylus
