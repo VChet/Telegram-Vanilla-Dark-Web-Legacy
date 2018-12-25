@@ -55,6 +55,7 @@
   .btn,
   .composer_command_desc,
   .composer_command_option:hover .composer_command_desc,
+  .dropdown-menu>li>a,
   .form-control,
   .im_page_wrap,
   .im_selected_count,
