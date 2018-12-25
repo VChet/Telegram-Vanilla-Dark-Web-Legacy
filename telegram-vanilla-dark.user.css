@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     0.9.3
+@version     0.9.4
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -42,6 +42,8 @@
   a.im_dialog .im_short_message_service {
     color: var(--main-dark) !important;
   }
+  .btn-link.dropdown-toggle,
+  .btn-link.dropdown-toggle:hover,
   .composer_command_value,
   .composer_emoji_tooltip_tab_emoji,
   .composer_emoji_tooltip_tabs_stickers_active .composer_emoji_tooltip_tab_stickers,
@@ -49,19 +51,19 @@
   .im_message_author,
   .im_message_document_name,
   .im_message_fwd_author,
+  .im_message_reply_author,
   .im_submit_send_label:focus,
   .im_submit_send_label:hover,
   .link_preview_site_name,
   .link_preview_title,
+  .md_modal_section_link.pull-right,
+  .tg_head_logo_dropdown .dropdown-menu > li > a,
+  .tg_head_peer_dropdown .dropdown-menu > li > a,
   a strong,
   a {
     color: var(--main) !important;
   }
-  .btn.btn-link.dropdown-toggle:hover,
-  .im_message_author:hover,
-  .im_message_fwd_author:hover,
-  a strong:hover,
-  a:hover {
+  a.md_modal_action:hover {
     color: var(--main-light) !important;
   }
   .badge,
@@ -85,6 +87,7 @@
   .btn,
   .composer_command_desc,
   .composer_command_option:hover .composer_command_desc,
+  .dropdown-menu > li > a,
   .form-control,
   .im_page_wrap,
   .im_selected_count,
@@ -93,26 +96,28 @@
   .login_footer_wrap,
   .md_modal_list_peer_description .status_online,
   .md_modal_list_peer_description.status_online,
-  .md_modal_section_param_name,
   .md-input-label,
   .peer_modal_profile_description,
   .reply_markup_button,
   .session_active_date_online,
+  .settings_modal_username_link,
+  .settings_modal_username_link:hover,
   .tg_head_connecting_text,
   .tg_head_peer_status,
   .tgme_page_embed_code,
   .tgme_page_wrap,
   .tgme_widget_message_footer,
   a.im_dialog .im_short_message_text,
+  a.tg_radio,
   a.tgme_action_button_new,
   a.tgme_action_button,
   body,
   body.body_widget_post,
   html,
-  p.tg_checkbox {
+  p.tg_checkbox,
+  span.im_short_message_text {
     color: var(--text) !important;
   }
-  .btn-link.dropdown-toggle,
   .countries_scrollable_wrap a.countries_modal_country:hover .countries_modal_country_code,
   .im_bot_intro_message_wrap,
   .im_dialog_peer,
@@ -131,7 +136,6 @@
   .im_message_focus_active .im_message_edited,
   .im_message_focus_active .im_message_fwd_date,
   .im_message_focus_active .im_message_views_cnt,
-  .im_message_reply_author,
   .im_message_selected .im_message_audio_duration,
   .im_message_selected .im_message_audio_size,
   .im_message_selected .im_message_author_admin,
@@ -144,6 +148,7 @@
   .login_form_head,
   .md_modal_head,
   .md_modal_section_link,
+  .md_modal_section_param_name,
   .md-input,
   .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
   .tg_head_peer_media,
@@ -234,6 +239,7 @@
   .composer_emoji_tooltip_tab_shadow,
   .im_dialog_badge_muted,
   .im_dialog_unread,
+  .im_message_reply_border,
   .im_send_reply_cancel:hover .icon-reply-bar,
   .tg_checkbox.tg_checkbox_on i.icon-checkbox-inner,
   .tg_down_progress .progress-bar,
@@ -315,7 +321,6 @@
   .im_history_col .nano > .nano-pane,
   .im_history_select_active .im_message_outer_wrap:hover,
   .im_message_file_button,
-  .im_message_reply_border,
   .im_message_selected .im_message_outer_wrap,
   .im_message_unread_split,
   .login_head_bg,
@@ -339,6 +344,7 @@
   a.tgme_head_dl_button:hover {
     background-color: var(--gray-light) !important;
   }
+  .tg_checkbox i.icon-checkbox-inner,
   a.tg_radio:hover i.icon-radio {
     background-color: var(--light) !important;
   }
@@ -369,12 +375,15 @@
   i.icon-radio {
     border-color: var(--gray) !important;
   }
+  .im_panel_peer_online,
   hr {
     border-color: var(--gray-light) !important;
   }
+  .im_message_webpage_wrap,
   .tg_radio.tg_radio_on .icon-radio-outer {
     border-color: var(--main) !important;
   }
+  .tg_checkbox i.icon-checkbox-inner,
   .tg_radio .icon-radio-outer {
     border-color: var(--light) !important;
   }
@@ -414,9 +423,6 @@
   .md-input-group,
   .md_modal_iconed_section_wrap {
     border-bottom: 1px solid var(--gray-light) !important;
-  }
-  .im_message_webpage_wrap {
-    border-left-color: var(--gray-light) !important;
   }
   .md_modal_section_splitter {
     border-top-color: var(--main-dark) !important;
