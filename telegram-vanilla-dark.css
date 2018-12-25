@@ -341,6 +341,7 @@
   i.icon-radio {
     border-color: var(--gray) !important;
   }
+  .im_panel_peer_online,
   hr {
     border-color: var(--gray-light) !important;
   }
