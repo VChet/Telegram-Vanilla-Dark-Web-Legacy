@@ -6,9 +6,10 @@ gulp.task("lint", function() {
     "./**/*.css",
     "!./node_modules/**"
   ]).pipe(stylelint({
+    fix: true,
     reporters: [{
       formatter: "string",
       console: true
     }]
-  }));
+  })).pipe(gulp.dest((file => file.base)));
 });
