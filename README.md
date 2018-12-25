@@ -29,9 +29,9 @@ Anyone and everyone is welcome to [contribute](https://github.com/VChet/Telegram
    * In `telegram-vanilla-dark.css` for common styles.
    * In `/options/themes` for different color themes.
 1. Use available tasks if needed:
-   * `gulp lint`: runs Stylelint on all css files.
-   * `gulp usercss`: builds a usercss style.
-   * `gulp patch`: increments the version on the patch version number, creates commit and tag.
-   * `gulp minor`: increments the version on the minor version number, creates commit and tag.
-   * `gulp major`: increments the version on the major version number, creates commit and tag.
+   * `gulp lint`: run Stylelint on all css files.
+   * `npm run usercss`: build a usercss style.
+   * `npm run patch`: increment the version on the patch version number, creates commit and tag.
+   * `npm run minor`: increment the version on the minor version number, creates commit and tag.
+   * `npm run major`: increment the version on the major version number, creates commit and tag.
 7. Make a pull request.
