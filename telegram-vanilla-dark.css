@@ -22,6 +22,7 @@
   .im_message_author,
   .im_message_document_name,
   .im_message_fwd_author,
+  .im_message_reply_author,
   .im_submit_send_label:focus,
   .im_submit_send_label:hover,
   .link_preview_site_name,
@@ -82,7 +83,8 @@
   body,
   body.body_widget_post,
   html,
-  p.tg_checkbox {
+  p.tg_checkbox,
+  span.im_short_message_text {
     color: var(--text) !important;
   }
   .btn-link.dropdown-toggle,
@@ -104,7 +106,6 @@
   .im_message_focus_active .im_message_edited,
   .im_message_focus_active .im_message_fwd_date,
   .im_message_focus_active .im_message_views_cnt,
-  .im_message_reply_author,
   .im_message_selected .im_message_audio_duration,
   .im_message_selected .im_message_audio_size,
   .im_message_selected .im_message_author_admin,
@@ -207,6 +208,7 @@
   .composer_emoji_tooltip_tab_shadow,
   .im_dialog_badge_muted,
   .im_dialog_unread,
+  .im_message_reply_border,
   .im_send_reply_cancel:hover .icon-reply-bar,
   .tg_checkbox.tg_checkbox_on i.icon-checkbox-inner,
   .tg_down_progress .progress-bar,
@@ -288,7 +290,6 @@
   .im_history_col .nano > .nano-pane,
   .im_history_select_active .im_message_outer_wrap:hover,
   .im_message_file_button,
-  .im_message_reply_border,
   .im_message_selected .im_message_outer_wrap,
   .im_message_unread_split,
   .login_head_bg,
@@ -345,6 +346,7 @@
   hr {
     border-color: var(--gray-light) !important;
   }
+  .im_message_webpage_wrap,
   .tg_radio.tg_radio_on .icon-radio-outer {
     border-color: var(--main) !important;
   }
@@ -387,9 +389,6 @@
   .md-input-group,
   .md_modal_iconed_section_wrap {
     border-bottom: 1px solid var(--gray-light) !important;
-  }
-  .im_message_webpage_wrap {
-    border-left-color: var(--gray-light) !important;
   }
   .md_modal_section_splitter {
     border-top-color: var(--main-dark) !important;
