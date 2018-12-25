@@ -31,11 +31,7 @@
   a {
     color: var(--main) !important;
   }
-  .btn.btn-link.dropdown-toggle:hover,
-  .im_message_author:hover,
-  .im_message_fwd_author:hover,
-  a strong:hover,
-  a:hover {
+  a.md_modal_action:hover {
     color: var(--main-light) !important;
   }
   .badge,
