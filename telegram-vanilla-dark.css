@@ -27,6 +27,8 @@
   .im_submit_send_label:hover,
   .link_preview_site_name,
   .link_preview_title,
+  .tg_head_logo_dropdown .dropdown-menu > li > a,
+  .tg_head_peer_dropdown .dropdown-menu > li > a,
   a strong,
   a {
     color: var(--main) !important;
