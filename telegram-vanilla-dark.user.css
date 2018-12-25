@@ -534,7 +534,6 @@
     padding: 13px 8px 11px !important;
     border: 2px solid #5DC390 !important;
   }
-
   .tgme_page_copy_action a.tgme_action_button_new:before,
   .tgme_page_embed_btn a.tgme_action_button_new:before {
     -webkit-filter: saturate(0%) !important;
