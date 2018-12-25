@@ -63,7 +63,6 @@
   .login_footer_wrap,
   .md_modal_list_peer_description .status_online,
   .md_modal_list_peer_description.status_online,
-  .md_modal_section_param_name,
   .md-input-label,
   .peer_modal_profile_description,
   .reply_markup_button,
@@ -114,6 +113,7 @@
   .login_form_head,
   .md_modal_head,
   .md_modal_section_link,
+  .md_modal_section_param_name,
   .md-input,
   .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
   .tg_head_peer_media,
@@ -309,6 +309,7 @@
   a.tgme_head_dl_button:hover {
     background-color: var(--gray-light) !important;
   }
+  .tg_checkbox i.icon-checkbox-inner,
   a.tg_radio:hover i.icon-radio {
     background-color: var(--light) !important;
   }
@@ -346,6 +347,7 @@
   .tg_radio.tg_radio_on .icon-radio-outer {
     border-color: var(--main) !important;
   }
+  .tg_checkbox i.icon-checkbox-inner,
   .tg_radio .icon-radio-outer {
     border-color: var(--light) !important;
   }
