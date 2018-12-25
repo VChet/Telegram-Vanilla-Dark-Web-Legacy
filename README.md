@@ -1,8 +1,19 @@
-# Telegram Vanilla Dark
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![saythanks](https://img.shields.io/badge/Say-thanks-B9B384.svg)](https://saythanks.io/to/VChet)
-
-Dark theme for [web.telegram.org](https://web.telegram.org).
+<p align="center">
+  <img alt="logo" src="./images/logo.svg" width="580">
+  <br>
+  <a href="https://github.com/VChet/Telegram-Vanilla-Dark/tags">
+    <img src="https://img.shields.io/github/tag/VChet/Telegram-Vanilla-Dark.svg?label=version" alt="Version">
+  </a>
+  <a href="https://david-dm.org/VChet/Telegram-Vanilla-Dark?type=dev">
+    <img src="https://img.shields.io/david/dev/StylishThemes/GitHub-Dark.svg?label=devDependencies" alt="devDependencies">
+  </a>
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome">
+  </a>
+  <a href="https://saythanks.io/to/VChet">
+    <img src="https://img.shields.io/badge/say-thanks-B9B384.svg" alt="say thanks">
+  </a>
+</p>
 
 ## Preview
 ![](./images/screenshots/color-themes.png)
