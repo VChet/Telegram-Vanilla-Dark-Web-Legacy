@@ -12,6 +12,12 @@
   "bugs": {
     "url": "https://github.com/VChet/Telegram-Vanilla-Dark/issues"
   },
+  "scripts": {
+    "patch": "gulp lint && npx ver patch -p telegram-vanilla-dark.user.css",
+    "minor": "gulp lint && npx ver minor -p telegram-vanilla-dark.user.css",
+    "major": "gulp lint && npx ver major -p telegram-vanilla-dark.user.css",
+    "usercss": "gulp lint && node ./options/build-usercss.js"
+  },
   "devDependencies": {
     "fs-extra": "^7.0.1",
     "gulp": "^4.0.0",
