@@ -15,6 +15,8 @@
   a.im_dialog .im_short_message_service {
     color: var(--main-dark) !important;
   }
+  .btn-link.dropdown-toggle,
+  .btn-link.dropdown-toggle:hover,
   .composer_command_value,
   .composer_emoji_tooltip_tab_emoji,
   .composer_emoji_tooltip_tabs_stickers_active .composer_emoji_tooltip_tab_stickers,
@@ -27,6 +29,7 @@
   .im_submit_send_label:hover,
   .link_preview_site_name,
   .link_preview_title,
+  .md_modal_section_link.pull-right,
   .tg_head_logo_dropdown .dropdown-menu > li > a,
   .tg_head_peer_dropdown .dropdown-menu > li > a,
   a strong,
@@ -78,6 +81,7 @@
   .tgme_page_wrap,
   .tgme_widget_message_footer,
   a.im_dialog .im_short_message_text,
+  a.tg_radio,
   a.tgme_action_button_new,
   a.tgme_action_button,
   body,
@@ -87,7 +91,6 @@
   span.im_short_message_text {
     color: var(--text) !important;
   }
-  .btn-link.dropdown-toggle,
   .countries_scrollable_wrap a.countries_modal_country:hover .countries_modal_country_code,
   .im_bot_intro_message_wrap,
   .im_dialog_peer,
