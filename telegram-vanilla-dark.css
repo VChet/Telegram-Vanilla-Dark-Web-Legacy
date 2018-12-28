@@ -504,7 +504,8 @@
     stroke: var(--gray-light) !important;
   }
   a.tgme_action_button.tgme_action_web_button {
-    padding: 13px 8px 11px !important;
+    padding-top: 13px !important;
+    padding-bottom: 11px !important;
     border: 2px solid #5DC390 !important;
   }
   .tgme_page_copy_action a.tgme_action_button_new:before,
