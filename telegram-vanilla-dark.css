@@ -220,6 +220,9 @@
   .tg_slider_thumb,
   .tg_slider_track_fill,
   .tgme_head_wrap,
+  .tgme_widget_message_game:before,
+  .tgme_widget_message_link_preview:before,
+  .tgme_widget_message_reply:before,
   a.tg_radio.tg_radio_on:hover i.icon-radio {
     background-color: var(--main) !important;
   }
@@ -269,9 +272,6 @@
   .md_simple_modal_wrap,
   .md-input,
   .tg_head_split,
-  .tgme_widget_message_game:before,
-  .tgme_widget_message_link_preview:before,
-  .tgme_widget_message_reply:before,
   a.im_dialog,
   a.tgme_head_dl_button,
   i.icon-radio {
