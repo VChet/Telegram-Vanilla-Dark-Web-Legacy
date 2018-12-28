@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     1.0.0
+@version     1.0.1
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -247,6 +247,9 @@
   .tg_slider_thumb,
   .tg_slider_track_fill,
   .tgme_head_wrap,
+  .tgme_widget_message_game:before,
+  .tgme_widget_message_link_preview:before,
+  .tgme_widget_message_reply:before,
   a.tg_radio.tg_radio_on:hover i.icon-radio {
     background-color: var(--main) !important;
   }
@@ -296,9 +299,6 @@
   .md_simple_modal_wrap,
   .md-input,
   .tg_head_split,
-  .tgme_widget_message_game:before,
-  .tgme_widget_message_link_preview:before,
-  .tgme_widget_message_reply:before,
   a.im_dialog,
   a.tgme_head_dl_button,
   i.icon-radio {
@@ -517,6 +517,9 @@
 }
 
 @-moz-document domain("t.me") {
+  a.tgme_widget_message_date {
+    color: inherit !important;
+  }
   .tgme_page_web_action a.tgme_action_button:active,
   .tgme_page_web_action a.tgme_action_button:hover {
     background-color: #5DC390 !important;
@@ -531,7 +534,8 @@
     stroke: var(--gray-light) !important;
   }
   a.tgme_action_button.tgme_action_web_button {
-    padding: 13px 8px 11px !important;
+    padding-top: 13px !important;
+    padding-bottom: 11px !important;
     border: 2px solid #5DC390 !important;
   }
   .tgme_page_copy_action a.tgme_action_button_new:before,
