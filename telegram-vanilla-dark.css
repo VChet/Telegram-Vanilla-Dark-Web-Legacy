@@ -10,6 +10,7 @@
   /* Color */
   .im_message_outer_wrap span.im_message_sign_link,
   .im_message_outer_wrap.hasselect:hover span.im_message_sign_link,
+  .im_submit_edit_label,
   .im_submit_send_label,
   a.im_dialog .im_short_message_media,
   a.im_dialog .im_short_message_service {
@@ -25,6 +26,8 @@
   .im_message_document_name,
   .im_message_fwd_author,
   .im_message_reply_author,
+  .im_submit_edit_label:focus,
+  .im_submit_edit_label:hover,
   .im_submit_send_label:focus,
   .im_submit_send_label:hover,
   .link_preview_site_name,
@@ -327,6 +330,9 @@
     background-color: #FFFFFF !important;
   }
   .btn.btn-link.dropdown-toggle,
+  .im_submit_edit,
+  .im_submit_edit:focus,
+  .im_submit_edit:hover,
   .im_submit_send,
   .im_submit_send:focus,
   .im_submit_send:hover {
