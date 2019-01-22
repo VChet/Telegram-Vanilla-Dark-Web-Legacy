@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     1.0.2
+@version     1.0.3
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -168,6 +168,7 @@
   .active .im_dialog_peer,
   .active a.im_dialog .im_dialog_chat_from_wrap,
   .active a.im_dialog .im_short_message_media,
+  .active a.im_dialog .im_short_message_service,
   .active a.im_dialog .im_short_message_text,
   .active a.im_dialog:hover .im_dialog_date {
     color: #FFFFFF !important;
