@@ -67,7 +67,7 @@
   .form-control,
   .im_page_wrap,
   .im_selected_count,
-  .inactive_title,
+  .inactive_description,
   .link_preview_description,
   .login_footer_wrap,
   .md_modal_list_peer_description .status_online,
@@ -122,6 +122,7 @@
   .im_message_unread_split,
   .im_service_message_pinned,
   .im_service_message,
+  .inactive_title,
   .login_form_head,
   .md_modal_head,
   .md_modal_section_link,
@@ -472,7 +473,8 @@
   .stop100 {
     stop-color: var(--main) !important;
   }
-  .composer_emoji_insert_btn:hover .icon-emoji {
+  .composer_emoji_insert_btn:hover .icon-emoji,
+  .inactive_image {
     opacity: 0.8 !important;
   }
   .composer_emoji_insert_btn_on:hover .icon-emoji {
