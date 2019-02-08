@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     1.0.3
+@version     1.0.4
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -94,7 +94,7 @@
   .form-control,
   .im_page_wrap,
   .im_selected_count,
-  .inactive_title,
+  .inactive_description,
   .link_preview_description,
   .login_footer_wrap,
   .md_modal_list_peer_description .status_online,
@@ -147,7 +147,9 @@
   .im_message_selected .im_message_fwd_date,
   .im_message_selected .im_message_views_cnt,
   .im_message_unread_split,
+  .im_service_message_pinned,
   .im_service_message,
+  .inactive_title,
   .login_form_head,
   .md_modal_head,
   .md_modal_section_link,
@@ -498,7 +500,8 @@
   .stop100 {
     stop-color: var(--main) !important;
   }
-  .composer_emoji_insert_btn:hover .icon-emoji {
+  .composer_emoji_insert_btn:hover .icon-emoji,
+  .inactive_image {
     opacity: 0.8 !important;
   }
   .composer_emoji_insert_btn_on:hover .icon-emoji {
