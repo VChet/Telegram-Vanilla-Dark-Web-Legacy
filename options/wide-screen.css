@@ -1,0 +1,9 @@
+.im_page_wrap,
+.tg_head_split {
+  max-width: 100% !important;
+}
+.im_message_wrap,
+.im_send_form,
+.im_send_panel_wrap {
+  max-width: 90% !important;
+}

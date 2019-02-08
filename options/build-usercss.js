@@ -1,11 +1,12 @@
-const fs = require('fs-extra');
-const minify = require('minify');
+const fs = require("fs-extra");
+const minify = require("minify");
 
-const version = require('../package.json').version;
+const version = require("../package.json").version;
 const files = {
   style: "./telegram-vanilla-dark.css",
   usercss: "./telegram-vanilla-dark.user.css",
   template: "./options/usercss-template.css",
+  wideScreen: "./options/wide-screen.css",
   borderRadius: "./options/border-radius.css"
 };
 
@@ -18,6 +19,7 @@ async function replaceVars(css) {
   }
 
   const themes = await fs.readdir("./options/themes/");
+  const wideScreen = await fs.readFile(files.wideScreen, "utf8");
   const borderRadius = await fs.readFile(files.borderRadius, "utf8");
 
   const styles = await Promise.all(themes.map(theme => fs.readFile("./options/themes/" + theme, "utf8")));
@@ -27,6 +29,7 @@ async function replaceVars(css) {
     css = css.replace(`{{${name}}}`, minify.css(style));
   });
 
+  css = css.replace("{{wide-screen}}", minify.css(wideScreen));
   css = css.replace("{{border-radius}}", minify.css(borderRadius));
   css = css.replace("{{version}}", version);
 

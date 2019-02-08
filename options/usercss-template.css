@@ -8,12 +8,6 @@
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
 @supportURL  https://github.com/VChet/Telegram-Vanilla-Dark/issues
 @license     CC-BY-SA-4.0
-@advanced dropdown border-radius "Reduce avatar rounding" {
-  No "No" <<<EOT
-  EOT;
-  Yes "Yes" <<<EOT
-  {{border-radius}} EOT;
-}
 @advanced dropdown color-theme "Color Theme" {
   Cream "Cream" <<<EOT
   {{cream}} EOT;
@@ -23,5 +17,17 @@
   {{green}} EOT;
   Red "Red" <<<EOT
   {{red}} EOT;
+}
+@advanced dropdown wide-screen "Wide-screen" {
+  No "No" <<<EOT
+  EOT;
+  Yes "Yes" <<<EOT
+  {{wide-screen}} EOT;
+}
+@advanced dropdown border-radius "Reduce avatar rounding" {
+  No "No" <<<EOT
+  EOT;
+  Yes "Yes" <<<EOT
+  {{border-radius}} EOT;
 }
 ==/UserStyle== */
