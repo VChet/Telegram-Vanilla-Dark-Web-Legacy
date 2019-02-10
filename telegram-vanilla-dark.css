@@ -225,18 +225,18 @@
   .im_send_reply_cancel:hover .icon-reply-bar,
   .tg_checkbox.tg_checkbox_on i.icon-checkbox-inner,
   .tg_down_progress .progress-bar,
-  .tg_radio.tg_radio_on i.icon-radio,
   .tg_slider_thumb,
   .tg_slider_track_fill,
   .tgme_head_wrap,
   .tgme_widget_message_game:before,
   .tgme_widget_message_link_preview:before,
   .tgme_widget_message_reply:before,
-  a.tg_radio.tg_radio_on:hover i.icon-radio {
+  a.tg_radio.tg_radio_on i.icon-radio {
     background-color: var(--main) !important;
   }
   .icon-message-status,
-  .im_history_pinned_hide:hover .icon-reply-bar {
+  .im_history_pinned_hide:hover .icon-reply-bar,
+  a.tg_radio.tg_radio_on:hover i.icon-radio {
     background-color: var(--main-light) !important;
   }
   .tgme_page_widget_actions,
