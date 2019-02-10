@@ -501,6 +501,11 @@
     -webkit-filter: brightness(75%) !important;
     filter: brightness(75%) !important;
   }
+  .im_history_select_active .im_message_outer_wrap:hover .im_message_file_button,
+  .im_message_selected .im_message_file_button {
+    -webkit-filter: contrast(95%);
+    filter: contrast(95%);
+  }
 }
 
 @-moz-document domain("t.me") {
