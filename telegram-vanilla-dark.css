@@ -60,11 +60,14 @@
   a.tgme_action_button_new:hover {
     color: var(--gray-dark) !important;
   }
+  .audio_player_duration,
+  .audio_player_size,
   .btn,
   .composer_command_desc,
   .composer_command_option:hover .composer_command_desc,
   .dropdown-menu > li > a,
   .form-control,
+  .im_message_document_size,
   .im_page_wrap,
   .im_selected_count,
   .inactive_description,
