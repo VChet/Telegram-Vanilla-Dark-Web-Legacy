@@ -507,7 +507,13 @@
     filter: brightness(75%) !important;
   }
   .im_history_select_active .im_message_outer_wrap:hover .im_message_file_button,
-  .im_message_selected .im_message_file_button {
+  .im_history_select_active .im_message_outer_wrap:hover .tg_down_progress,
+  .im_history_select_active .im_message_outer_wrap:hover .tg_slider_track,
+  .im_history_select_active .im_message_outer_wrap:hover .tg_up_progress,
+  .im_message_selected .im_message_file_button,
+  .im_message_selected .tg_down_progress,
+  .im_message_selected .tg_slider_track,
+  .im_message_selected .tg_up_progress {
     -webkit-filter: contrast(95%);
     filter: contrast(95%);
   }
