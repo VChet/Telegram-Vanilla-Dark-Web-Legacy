@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     1.1.0
+@version     1.1.1
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -32,7 +32,7 @@
 }
 ==/UserStyle== */
 @-moz-document domain("web.telegram.org"), domain("t.me") {
-  /*! Telegram Vanilla Dark 1.1.0 */
+  /*! Telegram Vanilla Dark 1.1.1 */
   /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark  */
   /*! Userstyle:  https://userstyles.org/styles/162801            */
   /*! License:    https://creativecommons.org/licenses/by-sa/4.0/ */
@@ -66,15 +66,14 @@
   .im_submit_send_label:hover,
   .link_preview_site_name,
   .link_preview_title,
+  .md_modal_section_link:focus,
+  .md_modal_section_link:hover,
   .md_modal_section_link.pull-right,
   .tg_head_logo_dropdown .dropdown-menu > li > a,
   .tg_head_peer_dropdown .dropdown-menu > li > a,
   a strong,
   a {
     color: var(--main) !important;
-  }
-  a.md_modal_action:hover {
-    color: var(--main-light) !important;
   }
   .badge,
   .btn-link:hover,
@@ -94,11 +93,14 @@
   a.tgme_action_button_new:hover {
     color: var(--gray-dark) !important;
   }
+  .audio_player_duration,
+  .audio_player_size,
   .btn,
   .composer_command_desc,
   .composer_command_option:hover .composer_command_desc,
   .dropdown-menu > li > a,
   .form-control,
+  .im_message_document_size,
   .im_page_wrap,
   .im_selected_count,
   .inactive_description,
@@ -118,6 +120,7 @@
   .tgme_page_wrap,
   .tgme_widget_message_footer,
   a.im_dialog .im_short_message_text,
+  a.md_modal_action,
   a.tg_radio,
   a.tgme_action_button_new,
   a.tgme_action_button,
@@ -169,6 +172,8 @@
   a.contacts_modal_contact:hover .md_modal_list_peer_description,
   a.im_dialog .im_dialog_chat_from_wrap,
   a.im_dialog:hover .im_dialog_date,
+  a.md_modal_action:focus,
+  a.md_modal_action:hover,
   a.tg_checkbox,
   h1, h2, h3, h4, h5 {
     color: var(--light) !important;
@@ -256,18 +261,19 @@
   .im_send_reply_cancel:hover .icon-reply-bar,
   .tg_checkbox.tg_checkbox_on i.icon-checkbox-inner,
   .tg_down_progress .progress-bar,
-  .tg_radio.tg_radio_on i.icon-radio,
   .tg_slider_thumb,
   .tg_slider_track_fill,
+  .tg_up_progress .progress-bar,
   .tgme_head_wrap,
   .tgme_widget_message_game:before,
   .tgme_widget_message_link_preview:before,
   .tgme_widget_message_reply:before,
-  a.tg_radio.tg_radio_on:hover i.icon-radio {
+  a.tg_radio.tg_radio_on i.icon-radio {
     background-color: var(--main) !important;
   }
   .icon-message-status,
-  .im_history_pinned_hide:hover .icon-reply-bar {
+  .im_history_pinned_hide:hover .icon-reply-bar,
+  a.tg_radio.tg_radio_on:hover i.icon-radio {
     background-color: var(--main-light) !important;
   }
   .tgme_page_widget_actions,
@@ -342,17 +348,19 @@
   .media_modal_wrap,
   .sessions_modal_col .nano > .nano-pane,
   .stickerset_modal_col .nano > .nano-pane,
+  .tg_down_progress,
   .tg_head_btn:hover,
   .tg_head_logo_dropdown .dropdown-menu > li > a:hover,
   .tg_head_peer_dropdown .dropdown-menu > li > a:hover,
   .tg_slider_track,
+  .tg_up_progress,
   .tgme_page_copy_action a.tgme_action_button_new,
   .tgme_page_embed_btn a.tgme_action_button_new,
   .tgme_page_embed_code,
   .tgme_page_web_action a.tgme_action_button,
   .tgme_widget_message_bubble,
-  a.tgme_action_button,
   a.tgme_action_button_new,
+  a.tgme_action_button,
   a.tgme_head_dl_button:active,
   a.tgme_head_dl_button:hover {
     background-color: var(--gray-light) !important;
@@ -530,6 +538,17 @@
   .icon-filter-video {
     -webkit-filter: brightness(75%) !important;
     filter: brightness(75%) !important;
+  }
+  .im_history_select_active .im_message_outer_wrap:hover .im_message_file_button,
+  .im_history_select_active .im_message_outer_wrap:hover .tg_down_progress,
+  .im_history_select_active .im_message_outer_wrap:hover .tg_slider_track,
+  .im_history_select_active .im_message_outer_wrap:hover .tg_up_progress,
+  .im_message_selected .im_message_file_button,
+  .im_message_selected .tg_down_progress,
+  .im_message_selected .tg_slider_track,
+  .im_message_selected .tg_up_progress {
+    -webkit-filter: contrast(95%);
+    filter: contrast(95%);
   }
 }
 
