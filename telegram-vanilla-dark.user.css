@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     1.1.1
+@version     1.2.0
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -31,8 +31,8 @@
   .composer_user_photo,.im_dialog_photo,.im_message_contact_photo,.im_message_from_photo,.im_message_fwd_photo,.im_panel_own_photo,.im_panel_peer_photo,.md_modal_list_peer_photo,.media_modal_author_photo,.peer_modal_photo{border-radius:10%!important} EOT;
 }
 ==/UserStyle== */
-@-moz-document domain("web.telegram.org"), domain("t.me") {
-  /*! Telegram Vanilla Dark 1.1.1 */
+@-moz-document domain("web.telegram.org"), domain("t.me"), domain("telegram.me") {
+  /*! Telegram Vanilla Dark 1.2.0 */
   /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark  */
   /*! Userstyle:  https://userstyles.org/styles/162801            */
   /*! License:    https://creativecommons.org/licenses/by-sa/4.0/ */
@@ -552,7 +552,7 @@
   }
 }
 
-@-moz-document domain("t.me") {
+@-moz-document domain("t.me"), domain("telegram.me") {
   a.tgme_widget_message_date {
     color: inherit !important;
   }
