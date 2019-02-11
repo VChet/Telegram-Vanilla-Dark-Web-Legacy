@@ -7,6 +7,7 @@
   <a href="https://david-dm.org/VChet/Telegram-Vanilla-Dark?type=dev">
     <img src="https://img.shields.io/david/dev/StylishThemes/GitHub-Dark.svg?label=devDependencies" alt="devDependencies">
   </a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2FVChet%2FTelegram-Vanilla-Dark?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FVChet%2FTelegram-Vanilla-Dark.svg?type=shield"/></a>
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome">
   </a>
@@ -46,3 +47,7 @@ Anyone and everyone is welcome to [contribute](https://github.com/VChet/Telegram
    * `npm run minor`: increment the version on the minor version number, creates commit and tag.
    * `npm run major`: increment the version on the major version number, creates commit and tag.
 7. Make a pull request.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVChet%2FTelegram-Vanilla-Dark.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FVChet%2FTelegram-Vanilla-Dark?ref=badge_large)
