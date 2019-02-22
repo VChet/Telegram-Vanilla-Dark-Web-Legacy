@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/github/tag/VChet/Telegram-Vanilla-Dark.svg?label=version" alt="Version">
   </a>
   <a href="https://david-dm.org/VChet/Telegram-Vanilla-Dark?type=dev">
-    <img src="https://img.shields.io/david/dev/StylishThemes/GitHub-Dark.svg?label=devDependencies" alt="devDependencies">
+    <img src="https://img.shields.io/david/dev/VChet/Telegram-Vanilla-Dark.svg?label=devDependencies" alt="devDependencies">
   </a>
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome">
