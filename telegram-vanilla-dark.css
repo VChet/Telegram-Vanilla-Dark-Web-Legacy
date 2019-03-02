@@ -306,7 +306,6 @@
   .im_dialogs_scrollable_wrap a.im_dialog:hover,
   .im_history_col .nano > .nano-pane,
   .im_history_select_active .im_message_outer_wrap:hover,
-  .im_message_file_button,
   .im_message_selected .im_message_outer_wrap,
   .im_message_unread_split,
   .login_head_bg,
@@ -315,12 +314,9 @@
   .media_modal_wrap,
   .sessions_modal_col .nano > .nano-pane,
   .stickerset_modal_col .nano > .nano-pane,
-  .tg_down_progress,
   .tg_head_btn:hover,
   .tg_head_logo_dropdown .dropdown-menu > li > a:hover,
   .tg_head_peer_dropdown .dropdown-menu > li > a:hover,
-  .tg_slider_track,
-  .tg_up_progress,
   .tgme_page_copy_action a.tgme_action_button_new,
   .tgme_page_embed_btn a.tgme_action_button_new,
   .tgme_page_embed_code,
@@ -331,6 +327,12 @@
   a.tgme_head_dl_button:active,
   a.tgme_head_dl_button:hover {
     background-color: var(--gray-light) !important;
+  }
+  .im_message_file_button,
+  .tg_down_progress,
+  .tg_slider_track,
+  .tg_up_progress {
+    background-color: var(--gray-selection) !important;
   }
   .tg_checkbox i.icon-checkbox-inner,
   a.tg_radio:hover i.icon-radio {
@@ -505,17 +507,6 @@
   .icon-filter-video {
     -webkit-filter: brightness(75%) !important;
     filter: brightness(75%) !important;
-  }
-  .im_history_select_active .im_message_outer_wrap:hover .im_message_file_button,
-  .im_history_select_active .im_message_outer_wrap:hover .tg_down_progress,
-  .im_history_select_active .im_message_outer_wrap:hover .tg_slider_track,
-  .im_history_select_active .im_message_outer_wrap:hover .tg_up_progress,
-  .im_message_selected .im_message_file_button,
-  .im_message_selected .tg_down_progress,
-  .im_message_selected .tg_slider_track,
-  .im_message_selected .tg_up_progress {
-    -webkit-filter: contrast(95%);
-    filter: contrast(95%);
   }
 }
 
