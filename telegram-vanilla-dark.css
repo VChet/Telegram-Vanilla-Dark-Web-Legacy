@@ -69,6 +69,7 @@
   .form-control,
   .im_message_date,
   .im_message_document_size,
+  .im_message_views_cnt,
   .im_page_wrap,
   .im_selected_count,
   .inactive_description,
@@ -505,9 +506,14 @@
   .icon-filter-audio,
   .icon-filter-documents,
   .icon-filter-photos,
-  .icon-filter-video {
+  .icon-filter-video,
+  .icon-message-views {
     -webkit-filter: brightness(75%) !important;
     filter: brightness(75%) !important;
+  }
+  .im_history_message_wrap.im_message_selected .icon-message-views {
+    -webkit-filter: saturate(0%) !important;
+    filter: saturate(0%) !important;
   }
 }
 
