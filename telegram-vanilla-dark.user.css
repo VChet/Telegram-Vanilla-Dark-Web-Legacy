@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     1.3.0
+@version     1.3.1
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -32,7 +32,7 @@
 }
 ==/UserStyle== */
 @-moz-document domain("web.telegram.org"), domain("t.me"), domain("telegram.me") {
-  /*! Telegram Vanilla Dark 1.3.0 */
+  /*! Telegram Vanilla Dark 1.3.1 */
   /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark  */
   /*! Userstyle:  https://userstyles.org/styles/162801            */
   /*! License:    https://creativecommons.org/licenses/by-sa/4.0/ */
@@ -98,6 +98,7 @@
   .btn,
   .composer_command_desc,
   .composer_command_option:hover .composer_command_desc,
+  .composer_rich_textarea:empty:before,
   .dropdown-menu > li > a,
   .form-control,
   .im_message_date,
@@ -547,6 +548,12 @@
   .im_history_message_wrap.im_message_selected .icon-message-views {
     -webkit-filter: saturate(0%) !important;
     filter: saturate(0%) !important;
+  }
+  /* Code blocks */
+  code, pre {
+    background-color: #272822 !important;
+    border: none !important;
+    color: #EFEBDA !important;
   }
 }
 
