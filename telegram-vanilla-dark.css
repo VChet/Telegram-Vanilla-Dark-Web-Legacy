@@ -516,6 +516,12 @@
     -webkit-filter: saturate(0%) !important;
     filter: saturate(0%) !important;
   }
+  /* Code blocks */
+  code, pre {
+    background-color: #272822 !important;
+    border: none !important;
+    color: #EFEBDA !important;
+  }
 }
 
 @-moz-document domain("t.me"), domain("telegram.me") {
