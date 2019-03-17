@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     1.3.1
+@version     1.3.2
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -32,7 +32,7 @@
 }
 ==/UserStyle== */
 @-moz-document domain("web.telegram.org"), domain("t.me"), domain("telegram.me") {
-  /*! Telegram Vanilla Dark 1.3.1 */
+  /*! Telegram Vanilla Dark 1.3.2 */
   /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark  */
   /*! Userstyle:  https://userstyles.org/styles/162801            */
   /*! License:    https://creativecommons.org/licenses/by-sa/4.0/ */
@@ -78,19 +78,21 @@
   .badge,
   .btn-link:hover,
   .btn-md:hover,
-  .btn-primary.active,
   .btn-primary:active,
   .btn-primary:focus,
   .btn-primary:hover,
-  .im_send_dropbox_wrap,
+  .btn-primary.active,
   .btn:hover .im_selected_count,
+  .composer_dropdown li a:hover,
+  .composer_dropdown li.composer_autocomplete_option_active a,
+  .im_send_dropbox_wrap,
   .open .btn-primary.dropdown-toggle,
   .reply_markup_button:focus,
   .reply_markup_button:hover,
-  a.tgme_action_button:focus,
-  a.tgme_action_button:hover,
   a.tgme_action_button_new:focus,
-  a.tgme_action_button_new:hover {
+  a.tgme_action_button_new:hover,
+  a.tgme_action_button:focus,
+  a.tgme_action_button:hover {
     color: var(--gray-dark) !important;
   }
   .audio_player_duration,
