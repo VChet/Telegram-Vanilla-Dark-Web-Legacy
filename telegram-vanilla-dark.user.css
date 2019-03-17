@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     1.3.2
+@version     1.3.3
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -32,7 +32,7 @@
 }
 ==/UserStyle== */
 @-moz-document domain("web.telegram.org"), domain("t.me"), domain("telegram.me") {
-  /*! Telegram Vanilla Dark 1.3.2 */
+  /*! Telegram Vanilla Dark 1.3.3 */
   /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark  */
   /*! Userstyle:  https://userstyles.org/styles/162801            */
   /*! License:    https://creativecommons.org/licenses/by-sa/4.0/ */
@@ -259,6 +259,7 @@
   .audio_player_volume_slider .tg_slider_thumb,
   .audio_player_volume_slider .tg_slider_track_fill,
   .composer_dropdown li a:hover,
+  .composer_dropdown li.composer_autocomplete_option_active a,
   .composer_emoji_tooltip_tab_shadow,
   .im_dialog_badge_muted,
   .im_dialog_unread,
