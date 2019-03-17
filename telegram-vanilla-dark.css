@@ -226,6 +226,7 @@
   .audio_player_volume_slider .tg_slider_thumb,
   .audio_player_volume_slider .tg_slider_track_fill,
   .composer_dropdown li a:hover,
+  .composer_dropdown li.composer_autocomplete_option_active a,
   .composer_emoji_tooltip_tab_shadow,
   .im_dialog_badge_muted,
   .im_dialog_unread,
