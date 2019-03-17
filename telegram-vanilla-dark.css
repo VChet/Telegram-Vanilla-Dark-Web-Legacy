@@ -54,6 +54,8 @@
   .open .btn-primary.dropdown-toggle,
   .reply_markup_button:focus,
   .reply_markup_button:hover,
+  .composer_dropdown li a:hover,
+  .composer_dropdown li.composer_autocomplete_option_active a,
   a.tgme_action_button:focus,
   a.tgme_action_button:hover,
   a.tgme_action_button_new:focus,
