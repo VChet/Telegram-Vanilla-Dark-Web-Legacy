@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     1.3.3
+@version     1.3.4
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -32,7 +32,7 @@
 }
 ==/UserStyle== */
 @-moz-document domain("web.telegram.org"), domain("t.me"), domain("telegram.me") {
-  /*! Telegram Vanilla Dark 1.3.3 */
+  /*! Telegram Vanilla Dark 1.3.4 */
   /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark  */
   /*! Userstyle:  https://userstyles.org/styles/162801            */
   /*! License:    https://creativecommons.org/licenses/by-sa/4.0/ */
@@ -114,6 +114,7 @@
   .md_modal_list_peer_description .status_online,
   .md_modal_list_peer_description.status_online,
   .md-input-label,
+  .media_modal_date,
   .peer_modal_profile_description,
   .reply_markup_button,
   .session_active_date_online,
@@ -126,6 +127,7 @@
   .tgme_widget_message_footer,
   a.im_dialog .im_short_message_text,
   a.md_modal_action,
+  a.media_modal_date:hover,
   a.tg_radio,
   a.tgme_action_button_new,
   a.tgme_action_button,
@@ -170,6 +172,7 @@
   .md_modal_section_link,
   .md_modal_section_param_name,
   .md-input,
+  .media_modal_author,
   .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
   .tg_head_peer_media,
   .tg_head_peer_title,
