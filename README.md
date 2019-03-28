@@ -1,6 +1,5 @@
 <p align="center">
-  <img alt="logo" src="./images/logo.svg" width="580">
-  <br>
+  <img alt="logo" src="./images/logo.png" width="580"><br/>
   <a href="https://github.com/VChet/Telegram-Vanilla-Dark/tags">
     <img src="https://img.shields.io/github/tag/VChet/Telegram-Vanilla-Dark.svg?label=version" alt="Version">
   </a>
