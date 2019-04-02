@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     1.3.4
+@version     1.3.5
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -32,7 +32,7 @@
 }
 ==/UserStyle== */
 @-moz-document domain("web.telegram.org"), domain("t.me"), domain("telegram.me") {
-  /*! Telegram Vanilla Dark 1.3.4 */
+  /*! Telegram Vanilla Dark 1.3.5 */
   /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark  */
   /*! Userstyle:  https://userstyles.org/styles/162801            */
   /*! License:    https://creativecommons.org/licenses/by-sa/4.0/ */
@@ -83,8 +83,6 @@
   .btn-primary:hover,
   .btn-primary.active,
   .btn:hover .im_selected_count,
-  .composer_dropdown li a:hover,
-  .composer_dropdown li.composer_autocomplete_option_active a,
   .im_send_dropbox_wrap,
   .open .btn-primary.dropdown-toggle,
   .reply_markup_button:focus,
@@ -261,8 +259,6 @@
   .audio_player_seek_slider .tg_slider_track_fill,
   .audio_player_volume_slider .tg_slider_thumb,
   .audio_player_volume_slider .tg_slider_track_fill,
-  .composer_dropdown li a:hover,
-  .composer_dropdown li.composer_autocomplete_option_active a,
   .composer_emoji_tooltip_tab_shadow,
   .im_dialog_badge_muted,
   .im_dialog_unread,
@@ -292,6 +288,7 @@
     background-color: var(--gray-dark) !important;
   }
   .composer_command_option,
+  .composer_dropdown_wrap,
   .composer_emoji_tooltip,
   .contacts_modal_search_field,
   .contacts_modal_search_field:active,
@@ -334,8 +331,9 @@
   }
   .btn,
   .button,
+  .composer_dropdown li a:hover,
   .composer_dropdown li a.composer_command_option:hover,
-  .composer_dropdown_wrap,
+  .composer_dropdown li.composer_autocomplete_option_active a,
   .contacts_modal_col .nano > .nano-pane,
   .contacts_modal_members_list a.contacts_modal_contact:hover,
   .countries_modal_col .nano > .nano-pane,
