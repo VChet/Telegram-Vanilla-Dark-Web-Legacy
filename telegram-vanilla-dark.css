@@ -340,7 +340,8 @@
   .im_message_file_button,
   .tg_down_progress,
   .tg_slider_track,
-  .tg_up_progress {
+  .tg_up_progress,
+  .tgme_widget_message_document_icon {
     background-color: var(--gray-selection) !important;
   }
   .tg_checkbox i.icon-checkbox-inner,
