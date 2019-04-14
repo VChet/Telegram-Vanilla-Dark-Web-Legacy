@@ -89,6 +89,8 @@
   .tg_head_peer_status,
   .tgme_page_embed_code,
   .tgme_page_wrap,
+  .tgme_widget_message_contact_phone,
+  .tgme_widget_message_document_extra,
   .tgme_widget_message_footer,
   a.im_dialog .im_short_message_text,
   a.md_modal_action,
