@@ -539,7 +539,8 @@
   .tgme_page_widget_actions a.tgme_action_web_button:hover {
     text-decoration: none !important;
   }
-  .tgme_widget_message_bubble_tail .background {
+  .tgme_widget_message_bubble_tail .background,
+  .tgme_widget_message_bubble_tail .border_1x {
     fill: var(--gray-light) !important;
   }
   .tgme_widget_message_bubble_tail .border {
