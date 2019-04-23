@@ -17,6 +17,12 @@
 ## Preview
 ![](./images/screenshots/color-themes.png)
 
+### What theme are you using?
+[![](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Cream)](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Cream/vote)
+[![](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Aqua)](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Aqua/vote)
+[![](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Green)](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Green/vote)
+[![](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Red)](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Red/vote)
+
 ## Installation
 1. Install Stylus
 ([<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_16x16.png" /> Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne),
