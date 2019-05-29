@@ -16,7 +16,9 @@
     "patch": "gulp lint && npx ver patch telegram-vanilla-dark.css telegram-vanilla-dark.user.css",
     "minor": "gulp lint && npx ver minor telegram-vanilla-dark.css telegram-vanilla-dark.user.css",
     "major": "gulp lint && npx ver major telegram-vanilla-dark.css telegram-vanilla-dark.user.css",
-    "usercss": "gulp lint && node ./options/build-usercss.js"
+    "usercss": "gulp lint && node ./options/build-usercss.js",
+    "stylelint": "stylelint *.css",
+    "test": "npm run stylelint"
   },
   "devDependencies": {
     "fs-extra": "^8.0.1",
