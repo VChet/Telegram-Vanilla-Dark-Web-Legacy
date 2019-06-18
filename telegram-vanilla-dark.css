@@ -68,6 +68,7 @@
   .composer_rich_textarea:empty:before,
   .dropdown-menu > li > a,
   .form-control,
+  .form-control::placeholder,
   .im_message_date,
   .im_message_document_size,
   .im_message_views_cnt,
