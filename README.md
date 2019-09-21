@@ -14,6 +14,8 @@
   </a>
 </p>
 
+**[This theme for Telegram Desktop](https://github.com/VChet/Telegram-Vanilla-Dark-Desktop)**
+
 ## Preview
 ![](./images/screenshots/color-themes.png)
 
@@ -49,4 +51,5 @@ Anyone and everyone is welcome to [contribute](https://github.com/VChet/Telegram
    * `npm run patch`: increment the version on the patch version number, creates commit and tag.
    * `npm run minor`: increment the version on the minor version number, creates commit and tag.
    * `npm run major`: increment the version on the major version number, creates commit and tag.
-7. Make a pull request.
+1. Commit and push your changes.
+1. Make a pull request.
