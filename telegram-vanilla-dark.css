@@ -226,11 +226,13 @@
   .stickerset_modal_col .nano > .nano-pane > .nano-slider,
   .stickerset_modal_sticker_wrap:hover,
   .tg_checkbox.tg_checkbox_on span.icon-checkbox-outer,
-  .tgme_page_copy_action a.tgme_action_button_new:hover,
-  .tgme_page_embed_btn a.tgme_action_button_new:hover,
   a.composer_emoji_btn:hover,
   a.tgme_action_button_new:active,
-  a.tgme_action_button_new:hover {
+  a.tgme_action_button_new:focus,
+  a.tgme_action_button_new:hover,
+  a.tgme_action_button:active,
+  a.tgme_action_button:focus,
+  a.tgme_action_button:hover {
     background-color: var(--main-dark) !important;
   }
   .audio_player_seek_slider .tg_slider_track_fill,
@@ -334,10 +336,7 @@
   .tg_head_btn:hover,
   .tg_head_logo_dropdown .dropdown-menu > li > a:hover,
   .tg_head_peer_dropdown .dropdown-menu > li > a:hover,
-  .tgme_page_copy_action a.tgme_action_button_new,
-  .tgme_page_embed_btn a.tgme_action_button_new,
   .tgme_page_embed_code,
-  .tgme_page_web_action a.tgme_action_button,
   .tgme_widget_message_bubble,
   a.tgme_action_button_new,
   a.tgme_action_button,
@@ -562,13 +561,11 @@
     padding-bottom: 11px !important;
     border: 2px solid #5DC390 !important;
   }
-  .tgme_page_copy_action a.tgme_action_button_new:before,
-  .tgme_page_embed_btn a.tgme_action_button_new:before {
+  a.tgme_action_button_new:before {
     -webkit-filter: saturate(0%) !important;
     filter: saturate(0%) !important;
   }
-  .tgme_page_copy_action a.tgme_action_button_new:hover:before,
-  .tgme_page_embed_btn a.tgme_action_button_new:hover:before {
+  a.tgme_action_button_new:hover:before {
     -webkit-filter: brightness(0%) !important;
     filter: brightness(0%) !important;
   }
