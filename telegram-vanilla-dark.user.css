@@ -2,7 +2,7 @@
 @name        Telegram Vanilla Dark
 @description Dark theme for web.telegram.org
 @namespace   Telegram Vanilla Dark
-@version     1.3.9
+@version     1.3.10
 @author      VChet
 @homepageURL https://github.com/VChet/Telegram-Vanilla-Dark
 @updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark/master/telegram-vanilla-dark.user.css
@@ -36,7 +36,7 @@
   domain("t.me"),
   domain("telegram.me"),
   domain("telega.one") {
-  /*! Telegram Vanilla Dark 1.3.9 */
+  /*! Telegram Vanilla Dark 1.3.10 */
   /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark  */
   /*! Userstyle:  https://userstyles.org/styles/162801            */
   /*! License:    https://creativecommons.org/licenses/by-sa/4.0/ */
@@ -335,6 +335,7 @@
   .md_modal_footer,
   .md_simple_modal_wrap,
   .md-input,
+  .modal-content,
   .tg_head_split,
   a.im_dialog,
   a.tgme_head_dl_button,
