@@ -1,10 +1,10 @@
 <p align="center">
   <img alt="logo" src="./images/logo.png" width="580"><br/>
-  <a href="https://github.com/VChet/Telegram-Vanilla-Dark/tags">
-    <img src="https://img.shields.io/github/tag/VChet/Telegram-Vanilla-Dark.svg?label=version" alt="Version">
+  <a href="https://github.com/VChet/Telegram-Vanilla-Dark-Web/tags">
+    <img src="https://img.shields.io/github/tag/VChet/Telegram-Vanilla-Dark-Web.svg?label=version" alt="Version">
   </a>
-  <a href="https://david-dm.org/VChet/Telegram-Vanilla-Dark?type=dev">
-    <img src="https://img.shields.io/david/dev/VChet/Telegram-Vanilla-Dark.svg?label=devDependencies" alt="devDependencies">
+  <a href="https://david-dm.org/VChet/Telegram-Vanilla-Dark-Web?type=dev">
+    <img src="https://img.shields.io/david/dev/VChet/Telegram-Vanilla-Dark-Web.svg?label=devDependencies" alt="devDependencies">
   </a>
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome">
@@ -33,13 +33,13 @@
 
 1. Install the style using one of these methods:<br>
    * [Install from userstyles.org](https://userstyles.org/styles/162801)
-   * [Install directly with Stylus](https://github.com/VChet/Telegram-Vanilla-Dark/raw/master/telegram-vanilla-dark.user.css)
+   * [Install directly with Stylus](https://github.com/VChet/Telegram-Vanilla-Dark-Web/raw/master/telegram-vanilla-dark.user.css)
 
 ## Contribute
-Anyone and everyone is welcome to [contribute](https://github.com/VChet/Telegram-Vanilla-Dark/pulls), report any [issues](https://github.com/VChet/Telegram-Vanilla-Dark/issues) or just [say thanks](https://saythanks.io/to/VChet).
+Anyone and everyone is welcome to [contribute](https://github.com/VChet/Telegram-Vanilla-Dark-Web/pulls), report any [issues](https://github.com/VChet/Telegram-Vanilla-Dark-Web/issues) or just [say thanks](https://saythanks.io/to/VChet).
 
 ## Development
-1. [Fork](https://github.com/VChet/Telegram-Vanilla-Dark/fork) and download this repository.
+1. [Fork](https://github.com/VChet/Telegram-Vanilla-Dark-Web/fork) and download this repository.
 1. Install [Node.js](https://nodejs.org/).
 1. Install all dependencies using `npm install`.
 1. Make your changes:
