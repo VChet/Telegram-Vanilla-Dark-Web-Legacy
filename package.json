@@ -13,9 +13,9 @@
     "url": "https://github.com/VChet/Telegram-Vanilla-Dark-Web/issues"
   },
   "scripts": {
-    "patch": "npm run lint && npx ver patch telegram-vanilla-dark.css telegram-vanilla-dark.user.css",
-    "minor": "npm run lint && npx ver minor telegram-vanilla-dark.css telegram-vanilla-dark.user.css",
-    "major": "npm run lint && npx ver major telegram-vanilla-dark.css telegram-vanilla-dark.user.css",
+    "patch": "npm run lint && versions patch telegram-vanilla-dark*.css",
+    "minor": "npm run lint && versions minor telegram-vanilla-dark*.css",
+    "major": "npm run lint && versions major telegram-vanilla-dark*.css",
     "usercss": "npm run lint && node ./options/build-usercss.js",
     "lint": "stylelint **/*.css",
     "test": "npm run lint"
@@ -23,8 +23,8 @@
   "devDependencies": {
     "fs-extra": "^8.1.0",
     "minify": "^4.1.3",
-    "stylelint": "^11.1.1",
+    "stylelint": "^12.0.0",
     "stylelint-config-standard": "^19.0.0",
-    "ver": "^6.0.2"
+    "versions": "^7.0.2"
   }
 }
