@@ -21,7 +21,7 @@
     "test": "npm run lint"
   },
   "devDependencies": {
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^9.0.0",
     "minify": "^5.0.0",
     "stylelint": "^13.0.0",
     "stylelint-config-standard": "^20.0.0",
