@@ -18,7 +18,7 @@
   .im_submit_send_label,
   a.im_dialog .im_short_message_media,
   a.im_dialog .im_short_message_service {
-    color: var(--main-dark) !important;
+    color: var(--main-dark);
   }
   .btn-link.dropdown-toggle,
   .btn-link.dropdown-toggle:hover,
@@ -43,7 +43,7 @@
   .tg_head_peer_dropdown .dropdown-menu > li > a,
   a strong,
   a {
-    color: var(--main) !important;
+    color: var(--main);
   }
   .badge,
   .btn-link:hover,
@@ -61,7 +61,7 @@
   a.tgme_action_button_new:hover,
   a.tgme_action_button:focus,
   a.tgme_action_button:hover {
-    color: var(--gray-dark) !important;
+    color: var(--gray-dark);
   }
   .audio_player_duration,
   .audio_player_size,
@@ -109,7 +109,7 @@
   html,
   p.tg_checkbox,
   span.im_short_message_text {
-    color: var(--text) !important;
+    color: var(--text);
   }
   .countries_scrollable_wrap a.countries_modal_country:hover .countries_modal_country_code,
   .im_bot_intro_message_wrap,
@@ -157,7 +157,7 @@
   a.md_modal_action:hover,
   a.tg_checkbox,
   h1, h2, h3, h4, h5 {
-    color: var(--light) !important;
+    color: var(--light);
   }
   .active .im_dialog_date,
   .active .im_dialog_peer,
@@ -166,39 +166,39 @@
   .active a.im_dialog .im_short_message_service,
   .active a.im_dialog .im_short_message_text,
   .active a.im_dialog:hover .im_dialog_date {
-    color: var(--white) !important;
+    color: var(--white);
   }
   .user_color_1,
   .user_color_1:hover {
-    color: #8365AB !important;
+    color: #8365AB;
   }
   .user_color_2,
   .user_color_2:hover {
-    color: #539E4F !important;
+    color: #539E4F;
   }
   .user_color_3,
   .user_color_3:hover {
-    color: #AE9661 !important;
+    color: #AE9661;
   }
   .user_color_4,
   .user_color_4:hover {
-    color: #4979A3 !important;
+    color: #4979A3;
   }
   .user_color_5,
   .user_color_5:hover {
-    color: #B7635D !important;
+    color: #B7635D;
   }
   .user_color_6,
   .user_color_6:hover {
-    color: #B3577A !important;
+    color: #B3577A;
   }
   .user_color_7,
   .user_color_7:hover {
-    color: #5397B4 !important;
+    color: #5397B4;
   }
   .user_color_8,
   .user_color_8:hover {
-    color: #C07844 !important;
+    color: #C07844;
   }
   /* Background-color */
   .btn-link:hover,
@@ -232,7 +232,7 @@
   a.tgme_action_button:active,
   a.tgme_action_button:focus,
   a.tgme_action_button:hover {
-    background-color: var(--main-dark) !important;
+    background-color: var(--main-dark);
   }
   .audio_player_seek_slider .tg_slider_track_fill,
   .audio_player_volume_slider .tg_slider_thumb,
@@ -252,18 +252,18 @@
   .tgme_widget_message_link_preview:before,
   .tgme_widget_message_reply:before,
   a.tg_radio.tg_radio_on i.icon-radio {
-    background-color: var(--main) !important;
+    background-color: var(--main);
   }
   .icon-message-status,
   .im_history_pinned_hide:hover .icon-reply-bar,
   a.tg_radio.tg_radio_on:hover i.icon-radio {
-    background-color: var(--main-light) !important;
+    background-color: var(--main-light);
   }
   .tgme_page_widget_actions,
   body,
   body.body_widget_post,
   html {
-    background-color: var(--gray-dark) !important;
+    background-color: var(--gray-dark);
   }
   .composer_command_option,
   .composer_dropdown_wrap,
@@ -306,7 +306,7 @@
   a.im_dialog,
   a.tgme_head_dl_button,
   i.icon-radio {
-    background-color: var(--gray) !important;
+    background-color: var(--gray);
   }
   .btn,
   .button,
@@ -342,23 +342,23 @@
   a.tgme_action_button,
   a.tgme_head_dl_button:active,
   a.tgme_head_dl_button:hover {
-    background-color: var(--gray-light) !important;
+    background-color: var(--gray-light);
   }
   .im_message_file_button,
   .tg_down_progress,
   .tg_slider_track,
   .tg_up_progress,
   .tgme_widget_message_document_icon {
-    background-color: var(--gray-selection) !important;
+    background-color: var(--gray-selection);
   }
   .tg_checkbox i.icon-checkbox-inner,
   a.tg_radio:hover i.icon-radio {
-    background-color: var(--light) !important;
+    background-color: var(--light);
   }
   .active .im_dialog_badge,
   .active .im_dialog_unread,
   .active .im_dialog:hover .im_dialog_unread {
-    background-color: var(--white) !important;
+    background-color: var(--white);
   }
   .btn.btn-link.dropdown-toggle,
   .im_submit_edit,
@@ -367,10 +367,10 @@
   .im_submit_send,
   .im_submit_send:focus,
   .im_submit_send:hover {
-    background-color: transparent !important;
+    background-color: transparent;
   }
   .im_message_mymention {
-    background-color: #464C7B !important;
+    background-color: #464C7B;
   }
   /* Borders */
   .contacts_modal_search_field,
@@ -383,19 +383,19 @@
   .tg_radio.tg_radio_on .icon-radio-outer,
   .tg_radio.tg_radio_on i.icon-radio,
   i.icon-radio {
-    border-color: var(--gray) !important;
+    border-color: var(--gray);
   }
   .im_panel_peer_online,
   hr {
-    border-color: var(--gray-light) !important;
+    border-color: var(--gray-light);
   }
   .im_message_webpage_wrap,
   .tg_radio.tg_radio_on .icon-radio-outer {
-    border-color: var(--main) !important;
+    border-color: var(--main);
   }
   .tg_checkbox i.icon-checkbox-inner,
   .tg_radio .icon-radio-outer {
-    border-color: var(--light) !important;
+    border-color: var(--light);
   }
   .composer_dropdown_wrap,
   .composer_emoji_tooltip,
@@ -410,60 +410,60 @@
   .tg_head_peer_dropdown .dropdown-menu,
   .tgme_page_embed_code,
   .tgme_widget_message_bubble {
-    border: 1px solid var(--gray-light) !important;
+    border: 1px solid var(--gray-light);
   }
   .tg_head_split {
-    border-right: 1px solid var(--gray-light) !important;
-    border-left: 1px solid var(--gray-light) !important;
+    border-right: 1px solid var(--gray-light);
+    border-left: 1px solid var(--gray-light);
   }
   .fixed_actions .tgme_page_widget_actions,
   .im_bottom_panel_wrap {
-    border-top: 1px solid var(--gray-light) !important;
+    border-top: 1px solid var(--gray-light);
   }
   .im_dialogs_col_wrap,
   .tg_head_logo_wrap {
-    border-right: 1px solid var(--gray-light) !important;
+    border-right: 1px solid var(--gray-light);
   }
   .im_history_col_wrap {
-    border-left: 1px solid var(--gray-light) !important;
+    border-left: 1px solid var(--gray-light);
   }
   .im_dialog_wrap,
   .im_dialogs_panel,
   .im_history_pinned_wrap,
   .md-input-group,
   .md_modal_iconed_section_wrap {
-    border-bottom: 1px solid var(--gray-light) !important;
+    border-bottom: 1px solid var(--gray-light);
   }
   .md_modal_section_splitter {
-    border-top-color: var(--main-dark) !important;
+    border-top-color: var(--main-dark);
   }
   /* Box-shadows */
   .composer_emoji_tooltip_tab_shadow {
-    -webkit-box-shadow: 0 1px 0 var(--main) !important;
-    box-shadow: 0 1px 0 var(--main) !important;
+    -webkit-box-shadow: 0 1px 0 var(--main);
+    box-shadow: 0 1px 0 var(--main);
   }
   .composer_rich_textarea,
   .composer_textarea,
   .login_footer_about_wrap,
   .login_form_wrap {
-    -webkit-box-shadow: 0 1px 0 var(--gray-light) !important;
-    box-shadow: 0 1px 0 var(--gray-light) !important;
+    -webkit-box-shadow: 0 1px 0 var(--gray-light);
+    box-shadow: 0 1px 0 var(--gray-light);
   }
   .composer_rich_textarea:focus {
-    -webkit-box-shadow: 0 2px 0 0 var(--main-dark) !important;
-    box-shadow: 0 2px 0 0 var(--main-dark) !important;
+    -webkit-box-shadow: 0 2px 0 0 var(--main-dark);
+    box-shadow: 0 2px 0 0 var(--main-dark);
   }
   .composer_dropdown_wrap,
   .im_page_wrap,
   .md_modal_section_splitter,
   .tg_head_logo_dropdown .dropdown-menu,
   .tg_head_peer_dropdown .dropdown-menu {
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
   }
   .im_message_focus_active .im_message_outer_wrap {
-    -webkit-animation-duration: 2s !important;
-    animation-duration: 2s !important;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
   }
   @-webkit-keyframes im_message_focus_fade {
     from {
@@ -477,20 +477,20 @@
   }
   /* Selection */
   ::-moz-selection {
-    background-color: var(--main) !important;
-    color: var(--white) !important;
+    background-color: var(--main);
+    color: var(--white);
   }
   ::selection {
-    background-color: var(--main) !important;
-    color: var(--white) !important;
+    background-color: var(--main);
+    color: var(--white);
   }
   /* Margin / Padding */
   .im_service_message {
-    margin: 0 !important;
-    padding: 9px 7px !important;
+    margin: 0;
+    padding: 9px 7px;
   }
   .im_dialogs_panel {
-    padding: 8px !important;
+    padding: 8px;
   }
   /* Progress arc */
   .progress-arc-intermediate .progress-arc .progress-arc-bar {
@@ -499,74 +499,74 @@
   .stop0,
   .stop60,
   .stop100 {
-    stop-color: var(--main) !important;
+    stop-color: var(--main);
   }
   .composer_emoji_insert_btn:hover .icon-emoji,
   .inactive_image {
-    opacity: 0.8 !important;
+    opacity: 0.8;
   }
   .composer_emoji_insert_btn_on:hover .icon-emoji {
-    opacity: 1 !important;
+    opacity: 1;
   }
   /* Hue rotation */
   .composer_emoji_tooltip_category i {
-    -webkit-filter: invert(100%) !important;
-    filter: invert(100%) !important;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
   }
   .active .im_dialog_pinned,
   .tgme_widget_message_views:after {
-    -webkit-filter: brightness(250%) !important;
-    filter: brightness(250%) !important;
+    -webkit-filter: brightness(250%);
+    filter: brightness(250%);
   }
   .icon-filter-audio,
   .icon-filter-documents,
   .icon-filter-photos,
   .icon-filter-video,
   .icon-message-views {
-    -webkit-filter: brightness(75%) !important;
-    filter: brightness(75%) !important;
+    -webkit-filter: brightness(75%);
+    filter: brightness(75%);
   }
   .im_history_message_wrap.im_message_selected .icon-message-views {
-    -webkit-filter: saturate(0%) !important;
-    filter: saturate(0%) !important;
+    -webkit-filter: saturate(0%);
+    filter: saturate(0%);
   }
   /* Code blocks */
   code, pre {
-    background-color: #272822 !important;
-    border: none !important;
-    color: #EFEBDA !important;
+    background-color: #272822;
+    border: none;
+    color: #EFEBDA;
   }
 }
 
 @-moz-document domain("t.me"), domain("telegram.me") {
   a.tgme_widget_message_date {
-    color: inherit !important;
+    color: inherit;
   }
   .tgme_page_web_action a.tgme_action_button:active,
   .tgme_page_web_action a.tgme_action_button:hover {
-    background-color: #5DC390 !important;
+    background-color: #5DC390;
   }
   .tgme_page_widget_actions a.tgme_action_web_button:hover {
-    text-decoration: none !important;
+    text-decoration: none;
   }
   .tgme_widget_message_bubble_tail .background,
   .tgme_widget_message_bubble_tail .border_1x {
-    fill: var(--gray-light) !important;
+    fill: var(--gray-light);
   }
   .tgme_widget_message_bubble_tail .border {
-    stroke: var(--gray-light) !important;
+    stroke: var(--gray-light);
   }
   a.tgme_action_button.tgme_action_web_button {
-    padding-top: 13px !important;
-    padding-bottom: 11px !important;
-    border: 2px solid #5DC390 !important;
+    padding-top: 13px;
+    padding-bottom: 11px;
+    border: 2px solid #5DC390;
   }
   a.tgme_action_button_new:before {
-    -webkit-filter: saturate(0%) !important;
-    filter: saturate(0%) !important;
+    -webkit-filter: saturate(0%);
+    filter: saturate(0%);
   }
   a.tgme_action_button_new:hover:before {
-    -webkit-filter: brightness(0%) !important;
-    filter: brightness(0%) !important;
+    -webkit-filter: brightness(0%);
+    filter: brightness(0%);
   }
 }
