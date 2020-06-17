@@ -2,13 +2,16 @@
 :root {
   --main-dark: #4B8B60;
   --main: #63B97F;
+  --main-overlay: #63B97F4C;
   --main-light: #7AD08F;
   --gray-dark: #19191A;
+  --gray-dark-tp: #19191A01;
   --gray: #212122;
   --gray-light: #2A2A2C;
   --gray-selection: #2F2F31;
-  --text: #959595;
-  --light: #AAAAAA;
+  --text: #AAAAAA;
+  --light: #CCCCCC;
+  --white: #FFFFFF;
 }
 .icon-select-tick,
 .im_message_file_button_icon,
