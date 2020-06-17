@@ -166,7 +166,7 @@
   .active a.im_dialog .im_short_message_service,
   .active a.im_dialog .im_short_message_text,
   .active a.im_dialog:hover .im_dialog_date {
-    color: #FFFFFF !important;
+    color: var(--white) !important;
   }
   .user_color_1,
   .user_color_1:hover {
@@ -358,7 +358,7 @@
   .active .im_dialog_badge,
   .active .im_dialog_unread,
   .active .im_dialog:hover .im_dialog_unread {
-    background-color: #FFFFFF !important;
+    background-color: var(--white) !important;
   }
   .btn.btn-link.dropdown-toggle,
   .im_submit_edit,
@@ -478,11 +478,11 @@
   /* Selection */
   ::-moz-selection {
     background-color: var(--main) !important;
-    color: #FFFFFF !important;
+    color: var(--white) !important;
   }
   ::selection {
     background-color: var(--main) !important;
-    color: #FFFFFF !important;
+    color: var(--white) !important;
   }
   /* Margin / Padding */
   .im_service_message {
