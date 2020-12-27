@@ -9,20 +9,23 @@
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome">
   </a>
+  <a href="https://github.com/VChet/Telegram-Vanilla-Dark-Web/raw/master/telegram-vanilla-dark.user.css">
+    <img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg" alt="Install directly with Stylus">
+  </a>
 </p>
 
 **[This theme for Telegram Desktop](https://github.com/VChet/Telegram-Vanilla-Dark-Desktop)**
 
 ## Preview
 
-![](./images/preview.png)
+![Preview](./images/preview.png)
 
 ### What theme are you using?
 
-[![](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Cream)](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Cream/vote)
-[![](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Aqua)](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Aqua/vote)
-[![](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Green)](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Green/vote)
-[![](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Red)](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Red/vote)
+[![Vote Cream](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Cream)](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Cream/vote)
+[![Vote Aqua](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Aqua)](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Aqua/vote)
+[![Vote Green](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Green)](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Green/vote)
+[![Vote Red](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Red)](https://api.gh-polls.com/poll/01D95XHBSFHZ99YZVMJQP1J1Q6/Red/vote)
 
 ## Installation
 
@@ -31,9 +34,7 @@
    [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_16x16.png" /> Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/),
    [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_16x16.png" /> Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)).
 
-1. Install the style using one of these methods:<br>
-   - [Install directly with Stylus](https://github.com/VChet/Telegram-Vanilla-Dark-Web/raw/master/telegram-vanilla-dark.user.css)
-   - [Install from userstyles.org](https://userstyles.org/styles/162801)
+1. [Install with Stylus](https://github.com/VChet/Telegram-Vanilla-Dark-Web/raw/master/telegram-vanilla-dark.user.css)
 
 ## Contribute
 
