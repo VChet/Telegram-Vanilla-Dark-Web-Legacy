@@ -34,7 +34,7 @@
    [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_16x16.png" /> Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/),
    [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_16x16.png" /> Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)).
 
-1. [Install with Stylus](https://github.com/VChet/Telegram-Vanilla-Dark-Web/raw/master/telegram-vanilla-dark.user.css)
+1. [Install UserCSS](https://github.com/VChet/Telegram-Vanilla-Dark-Web/raw/master/telegram-vanilla-dark.user.css)
 
 ## Contribute
 
