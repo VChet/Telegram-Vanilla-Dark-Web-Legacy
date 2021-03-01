@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "fs-extra": "^9.0.1",
-    "minify": "^6.0.1",
+    "minify": "^7.0.1",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0",
     "versions": "^8.4.4"
