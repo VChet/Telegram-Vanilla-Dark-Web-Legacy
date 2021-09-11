@@ -1,12 +1,12 @@
 /* ==UserStyle==
-@name        Telegram Vanilla Dark
+@name        Telegram Vanilla Dark Legacy
 @description Dark theme for web.telegram.org
-@namespace   Telegram Vanilla Dark
+@namespace   Telegram Vanilla Dark Legacy
 @version     1.4.0
 @author      VChet
-@homepageURL https://github.com/VChet/Telegram-Vanilla-Dark-Web
-@updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark-Web/master/telegram-vanilla-dark.user.css
-@supportURL  https://github.com/VChet/Telegram-Vanilla-Dark-Web/issues
+@homepageURL https://github.com/VChet/Telegram-Vanilla-Dark-Web-Legacy
+@updateURL   https://raw.githubusercontent.com/VChet/Telegram-Vanilla-Dark-Web-Legacy/master/telegram-vanilla-dark.user.css
+@supportURL  https://github.com/VChet/Telegram-Vanilla-Dark-Web-Legacy/issues
 @license     CC-BY-SA-4.0
 @advanced dropdown color-theme "Color Theme" {
   Cream "Cream" <<<EOT
@@ -32,12 +32,12 @@
 }
 ==/UserStyle== */
 @-moz-document
-  domain("web.telegram.org"),
+  url-prefix("https://web.telegram.org/?legacy=1"),
   domain("t.me"),
   domain("telegram.me"),
   domain("telega.one") {
   /*! Telegram Vanilla Dark 1.4.0 */
-  /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark-Web */
+  /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark-Web-Legacy */
   /*! Userstyle:  https://stylebase.cc/style/8C49PZx580a             */
   /*! License:    https://creativecommons.org/licenses/by-sa/4.0/    */
   /*[[color-theme]]*/

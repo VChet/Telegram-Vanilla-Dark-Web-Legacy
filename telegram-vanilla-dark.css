@@ -1,10 +1,10 @@
 @-moz-document
-  domain("web.telegram.org"),
+  url-prefix("https://web.telegram.org/?legacy=1"),
   domain("t.me"),
   domain("telegram.me"),
   domain("telega.one") {
   /*! Telegram Vanilla Dark 1.4.0 */
-  /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark-Web */
+  /*! Repository: https://github.com/VChet/Telegram-Vanilla-Dark-Web-Legacy */
   /*! Userstyle:  https://stylebase.cc/style/8C49PZx580a             */
   /*! License:    https://creativecommons.org/licenses/by-sa/4.0/    */
   /*[[color-theme]]*/
